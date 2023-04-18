@@ -1,0 +1,25 @@
+{
+  "data": [
+    {
+    "event_start": "711/00/00",
+    "source_state": "",
+    "keywords": "flood",
+    "source_quote": "tunc aquae inundaverunt valde;",
+    "contemporaneity": ""
+  },
+    {
+    "event_start": "755/00/00",
+    "source_state": "",
+    "keywords": "solar eclipse",
+    "source_quote": "Eclypsis solis.",
+    "contemporaneity": ""
+  },
+  {
+    "event_start": "860/00/00",
+    "source_state": "",
+    "keywords": "cold, blood snow, ice, trade",
+    "source_quote": "Hibernum tempus asperum nimis et solito prolixius erat, frugibusque et arborum proventibus pernoxium. Nix quoque sanguinulenta in plerisque locis cecidisse reperta est. Mare etiam Ionium glaciali rigore ita constrictum est, ut mercatores, qui numquam antea nisi vecti navigio, tunc in equis quoque et carpentis mercimonia ferentes Venetiam frequentarent. ",
+    "contemporaneity": ""
+  }
+  ]
+}
