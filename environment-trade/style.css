@@ -1,125 +1,142 @@
-          body {
-            font-family: arial;
-            min-width: 350px;
-            min-height: 700px;
-            margin-top: 5px;
-            margin-left: 10px;
-            margin-right: 15px;
-            margin-bottom: 5px;
-          }
+.navbar {
+  background-color: DarkGreen;
+}
 
-          table.dataTable tfoot th {
-            border-top: 0;
-          }
-
-
-          a:link {
-            color: black;
-            text-decoration: none;
-          }
-
-          /* visited link */
-          a:visited {
-            color: black;
-            text-decoration: none;
-          }
-
-          /* mouse over link */
-          a:hover {
-            color: black;
-            text-decoration: none;
-          }
-
-          /* selected link */
-          a:active {
-            color: black;
-            text-decoration: none;
-          }
-
-          p {
-            color: gray;
-            font-size: medium;
-          }
+.h-icon {
+  border: 2px solid white;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  font-family: helvetica neue;
+  font-size: 22px;
+}
 
 
 
+    /* TABLE */
+
+    body {
+      font-family: arial;
+      min-width: 350px;
+      min-height: 700px;
+      margin-top: 5px;
+      margin-left: 10px;
+      margin-right: 15px;
+      margin-bottom: 5px;
+    }
+
+    table.dataTable tfoot th {
+      border-top: 0;
+    }
 
 
+    a:link {
+      color: black;
+      text-decoration: none;
+    }
 
-          /* datatables info color, font and centering */
-          .dataTables_wrapper .dataTables_info {
-            float: none !important;
-            text-align: center !important;
-            color: DarkGreen !important;
-            font-size: medium !important;
-            font-family: arial !important;
-            margin-bottom: 20px;
-          }
+    /* visited link */
+    a:visited {
+      color: black;
+      text-decoration: none;
+    }
 
-          /* custom search box */
-          .custom_searchbox {
-             border: 0;
-             outline: 0;
-             background: transparent;
-             border-radius: 0;
-             border-bottom: solid DarkGreen;
-             line-height: 1.5;
-             width: 98%;
-             font-size: large;
-             position:absolute;
-             left:1%
-           }
+    /* mouse over link */
+    a:hover {
+      color: black;
+      text-decoration: none;
+    }
 
+    /* selected link */
+    a:active {
+      color: black;
+      text-decoration: none;
+    }
 
-          /* search box to the left */
-          .dataTables_filter {
-            float: left !important;
-
-          }
-
-          /* search cancel button */
-          input[type="search"]::-webkit-search-cancel-button {
-          -webkit-appearance: none;
-          height: 1em;
-          width: 1em;
-          border-radius: 50em;
-          background: url(cancel-button.svg) no-repeat 50% 50%;
-          background-size: contain;
-
-        }
-
-        /* make table a tad smaller - only for online version */
-        #example {
-          width: 99%;
-          left: 0.5%;
-        }
-
-        /* export button centering */
-        .dataTables_wrapper .dt-buttons {
-          float: none;
-          text-align: center;
-        }
+    p {
+      color: gray;
+      font-size: medium;
+    }
 
 
 
 
 
-        /* advanced search checkbox color */
-        input[name="key"] {
-          accent-color: DarkGreen;
-          margin-right: 2px;
-        }
+
+    /* datatables info color, font and centering */
+    .dataTables_wrapper .dataTables_info {
+      float: none !important;
+      text-align: center !important;
+      color: DarkGreen !important;
+      font-size: medium !important;
+      font-family: arial !important;
+      margin-bottom: 20px;
+    }
+
+    /* custom search box */
+    .custom_searchbox {
+       border: 0;
+       outline: 0;
+       background: transparent;
+       border-radius: 0;
+       border-bottom: solid DarkGreen;
+       line-height: 1.5;
+       width: 98%;
+       font-size: large;
+       position:absolute;
+       left:1%
+     }
+
+
+    /* search box to the left */
+    .dataTables_filter {
+      float: left !important;
+
+    }
+
+    /* search cancel button */
+    input[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    height: 1em;
+    width: 1em;
+    border-radius: 50em;
+    background: url(cancel-button.svg) no-repeat 50% 50%;
+    background-size: contain;
+
+  }
+
+  /* make table a tad smaller - only for online version */
+  #example {
+    width: 99%;
+    left: 0.5%;
+  }
+
+  /* export button centering */
+  .dataTables_wrapper .dt-buttons {
+    float: none;
+    text-align: center;
+  }
 
 
 
-        .hidden-name {
-          display: none;
-        }
 
-        .hidden-link {
-          display: none;
-        }
 
-        .hidden-tags {
-          display: none;
-        }
+  /* advanced search checkbox color */
+  input[name="key"] {
+    accent-color: DarkGreen;
+    margin-right: 2px;
+  }
+
+
+
+  .hidden-name {
+    display: none;
+  }
+
+  .hidden-link {
+    display: none;
+  }
+
+  .hidden-tags {
+    display: none;
+  }
