@@ -1,0 +1,92 @@
+h3 {
+  color: #FE6700;
+  text-align: center;
+  font-size: 2em !important;
+  font-weight: bolder;
+}
+
+
+p {
+  color: black;
+  text-align: center;
+}
+
+ul {
+  color: black;
+  text-align: left;
+  font-size: medium;
+  margin-left: 20%;
+}
+
+a {
+  color: black;
+}
+
+
+
+.section-white {
+  background-color: white;
+}
+
+.section-orange {
+  background-color: #feefe5;
+}
+
+
+.navbar {
+  background-color: DarkGreen;
+}
+
+.hero-card {
+  background-color: #FE6700;
+  color: white;
+  border: none;
+}
+
+.hero {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.h-icon {
+  border: 2px solid white;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  font-family: helvetica neue;
+  font-size: 22px;
+}
+
+.bi {
+  color: #FE6700;
+}
+
+.about-card {
+  background-color: transparent;
+  border: none;
+  shadow: none;
+}
+
+.about-p {
+  text-align: left;
+  padding-left: 15%;
+  padding-right: 15%;
+  shadow: none;
+}
+
+.important-text {
+  text-align: center;
+  font-weight: bold;
+  color: #FE6700;
+}
+
+.subtitle {
+  text-align: center;
+  color: #FE6700;
+  font-size: larger;
+  font-weight: bolder;
+}
