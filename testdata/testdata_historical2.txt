@@ -20,6 +20,8 @@
     "translation_reference": "",
     "extn": "1234",
     "contemporaneity": ""
+    "further_links": "",
+    "notes": ""
   },
     {
     "event_start": "755/00/00",
@@ -41,6 +43,8 @@
     "translation_reference": "",
     "extn": "1234",
     "contemporaneity": ""
+    "further_links": "",
+    "notes": ""
   },
   {
     "event_start": "860/00/00",
@@ -62,6 +66,8 @@
     "translation_reference": "",
     "extn": "1234",
     "contemporaneity": ""
+    "further_links": "",
+    "notes": ""
   }
   ]
 }
