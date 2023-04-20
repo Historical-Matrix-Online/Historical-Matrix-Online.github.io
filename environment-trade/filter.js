@@ -2,61 +2,102 @@
 function format(d) {
   // `d` is the original data object for the row
   return (
-        '<table cellpadding="5" cellspacing="0" border="0" style="padding-left:50px;">' +
+        '<table cellpadding="5" cellspacing="0" border="0" style="width:100%">' +
         '<tr>' +
         '<td>Author name:</td>' +
         '<td>' +
-        d.extn +
+        d.author_name +
         '</td>' +
         '<td>lived from:</td>' +
         '<td>' +
-        d.event_start +
+        d.author_lived_from +
         '</td>' +
         '<td>lived until:</td>' +
         '<td>' +
-        d.event_start +
+        d.author_lived_until +
         '</td>' +
         '<td>lived in:</td>' +
         '<td>' +
-        d.event_start +
+        d.author_lived_in +
         '</td>' +
         '</tr>' +
+        
         '<tr>' +
-        '<td>Source name</td>' +
+        '<td>Source name:</td>' +
         '<td>' +
-        d.event_start +
+        d.source_name +
         '</td>' +
         '<td>Written from:</td>' +
         '<td>' +
-        d.event_start +
+        d.source_written_from +
         '</td>' +
         '<td>Written until:</td>' +
         '<td>' +
-        d.event_start +
+        d.source_written_until +
         '</td>' +
         '<td>Written in:</td>' +
         '<td>' +
-        d.name +
+        d.source_written_in +
         '</td>' +
         '</tr>' +
+        
         '<tr>' +
         '<td>Source reference:</td>' +
         '<td>' +
-        d.event_start +
+        d.source_reference + ', p. ' + d.source_reference_page + 
         '</td>' +
         '<td>Translation:</td>' +
         '<td>' +
-        d.event_start +
+        d.translation +
         '</td>' +
         '<td>Translation reference:</td>' +
         '<td>' +
-        d.event_start +
+        d.translation_reference + ', p. ' + d.translation_reference_page + 
         '</td>' +
-        '<td>12:</td>' +
+        '<td>Publication status:</td>' +
         '<td>' +
-        d.event_start +
+        d.publication_status +
         '</td>' +
         '</tr>' +
+        
+        '<tr>' +
+        '<td>Source genre:</td>' +
+        '<td>' +
+        d.source_genre + 
+        '</td>' +
+        '<td>Context from:</td>' +
+        '<td>' +
+        d.source_context_from +
+        '</td>' +
+        '<td>Context until:</td>' +
+        '<td>' +
+        d.source_context_until +
+        '</td>' +
+        '<td>////</td>' +
+        '<td>' +
+        d.undefined +
+        '</td>' +
+        '</tr>' +
+        
+        '<tr>' +
+        '<td>Further links:</td>' +
+        '<td>' +
+        d.further_links + 
+        '</td>' +
+        '<td>Notes:</td>' +
+        '<td>' +
+        d.notes +
+        '</td>' +
+        '<td>Trade from</td>' +
+        '<td>' +
+        d.trade_from +
+        '</td>' +
+        '<td>////</td>' +
+        '<td>' +
+        d.trade_to +
+        '</td>' +
+        '</tr>' +
+        
         '</table>'
     );
 }
@@ -78,11 +119,11 @@ $(document).ready(function () {
                 data: null,
                 defaultContent: '',
             },
-            { data: 'event_start' },
-            { data: 'source_state' },
-            { data: 'keywords' },
-            { data: 'source_quote' },
-            { data: 'contemporaneity' },
+            { data: 'event_start', title: 'Event start' },
+            { data: 'source_state', title: 'Source state' },
+            { data: 'keywords', title: 'Keywords' },
+            { data: 'source_quote', title: 'Source quote' },
+            { data: 'contemporaneity', title: 'Contemporaneity' },
         ],
     dom: 'iBrtp',
     paging: true,
