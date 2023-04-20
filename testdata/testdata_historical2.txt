@@ -4,6 +4,7 @@
     "event_start": "711/00/00",
     "source_state": "",
     "keywords": "flood",
+    "source_name": "Annales Petaviani",
     "source_quote": "tunc aquae inundaverunt valde;",
     "extn": "1234",
     "contemporaneity": ""
@@ -12,6 +13,7 @@
     "event_start": "755/00/00",
     "source_state": "",
     "keywords": "solar eclipse",
+    "source_name": "Annales Laubacenses",
     "source_quote": "Eclypsis solis.",
     "extn": "1234",
     "contemporaneity": ""
@@ -20,6 +22,7 @@
     "event_start": "860/00/00",
     "source_state": "",
     "keywords": "cold, blood snow, ice, trade",
+    "source_name": "Rudolfi Fuldenses Annales (Annales Fuldensis Pars Secunda)",
     "source_quote": "Hibernum tempus asperum nimis et solito prolixius erat, frugibusque et arborum proventibus pernoxium. Nix quoque sanguinulenta in plerisque locis cecidisse reperta est. Mare etiam Ionium glaciali rigore ita constrictum est, ut mercatores, qui numquam antea nisi vecti navigio, tunc in equis quoque et carpentis mercimonia ferentes Venetiam frequentarent. ",
     "extn": "1234",
     "contemporaneity": ""
