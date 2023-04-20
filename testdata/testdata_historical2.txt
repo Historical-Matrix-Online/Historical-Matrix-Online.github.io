@@ -18,6 +18,7 @@
     "source_reference_page": "7",
     "translation": "",
     "translation_reference": "",
+    "translation_reference_page": "",
     "contemporaneity": "",
     "further_links": "",
     "notes": ""
@@ -40,6 +41,7 @@
     "source_reference_page": "9",
     "translation": "",
     "translation_reference": "",
+    "translation_reference_page": "",
     "contemporaneity": "",
     "further_links": "",
     "notes": ""
@@ -62,6 +64,7 @@
     "source_reference_page": "373",
     "translation": "",
     "translation_reference": "",
+    "translation_reference_page": "",
     "contemporaneity": "",
     "further_links": "",
     "notes": ""
