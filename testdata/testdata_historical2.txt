@@ -19,6 +19,8 @@
     "translation": "",
     "translation_reference": "",
     "translation_reference_page": "",
+    "trade_from": "",
+    "trade_to": "",
     "contemporaneity": "",
     "further_links": "",
     "notes": ""
@@ -42,6 +44,8 @@
     "translation": "",
     "translation_reference": "",
     "translation_reference_page": "",
+    "trade_from": "",
+    "trade_to": "",
     "contemporaneity": "",
     "further_links": "",
     "notes": ""
@@ -65,6 +69,8 @@
     "translation": "",
     "translation_reference": "",
     "translation_reference_page": "",
+    "trade_from": "",
+    "trade_to": "",
     "contemporaneity": "",
     "further_links": "",
     "notes": ""
