@@ -6,6 +6,7 @@
     "keywords": "flood",
     "source_name": "Annales Petaviani",
     "source_quote": "tunc aquae inundaverunt valde;",
+    "source_reference": "MGH SS1",
     "extn": "1234",
     "contemporaneity": ""
   },
@@ -15,6 +16,7 @@
     "keywords": "solar eclipse",
     "source_name": "Annales Laubacenses",
     "source_quote": "Eclypsis solis.",
+    "source_reference": "MGH SS1",
     "extn": "1234",
     "contemporaneity": ""
   },
@@ -24,6 +26,7 @@
     "keywords": "cold, blood snow, ice, trade",
     "source_name": "Rudolfi Fuldenses Annales (Annales Fuldensis Pars Secunda)",
     "source_quote": "Hibernum tempus asperum nimis et solito prolixius erat, frugibusque et arborum proventibus pernoxium. Nix quoque sanguinulenta in plerisque locis cecidisse reperta est. Mare etiam Ionium glaciali rigore ita constrictum est, ut mercatores, qui numquam antea nisi vecti navigio, tunc in equis quoque et carpentis mercimonia ferentes Venetiam frequentarent. ",
+    "source_reference": "MGH SS1",
     "extn": "1234",
     "contemporaneity": ""
   }
