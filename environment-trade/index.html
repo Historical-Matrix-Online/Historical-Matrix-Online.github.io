@@ -83,351 +83,294 @@
 
 
 
-<input type="text" class="custom_searchbox" placeholder="Search..." id="custom_searchbox">
-<br>
-<br>
+<div class="row">
+  <div class="col-sm-3 p-3">
+    <input type="text" class="custom_searchbox" placeholder="Search..." id="custom_searchbox">
+    <br>
+    <br>
 
-<div class="container-fluid" id="container-checkbox">
+
+    <div class="container-fluid" id="container-checkbox">
       <div class="row">
 
-<div class="col-md-3 col-sm-6 col-xs-12 p-3 my-1">
-  <div class="card text-center">
-    <div class="card-header">season</div>
-    <div class="card-body">
-      <p class="card-text">
-        <input type="checkbox" name="key" value="spring">spring<br>
-        <input type="checkbox" name="key" value="summer">summer<br>
-        <input type="checkbox" name="key" value="autumn">autumn<br>
-        <input type="checkbox" name="key" value="winter">winter<br>
-        <input type="checkbox" name="key" value="season not specified">not specified<br>
-      </p>
+        <button data-bs-toggle="collapse" class="btn btn-success m-1" data-bs-target="#season">Season</button>
+        <div id="season" class="collapse show">
+          <div class="card text-center">
+            <p class="card-text">
+              <input type="checkbox" name="key" value="spring">spring<br>
+              <input type="checkbox" name="key" value="summer">summer<br>
+              <input type="checkbox" name="key" value="autumn">autumn<br>
+              <input type="checkbox" name="key" value="winter">winter<br>
+              <input type="checkbox" name="key" value="season not specified">not specified<br>
+            </p>
+          </div>
+        </div>
+
+
+        <button data-bs-toggle="collapse" class="btn btn-success m-1" data-bs-target="#temperature">Temperature</button>
+        <div id="temperature" class="collapse">
+          <div class="card text-center">
+            <p class="card-text">
+              <input type="checkbox" name="key" value="cold">cold<br>
+              <input type="checkbox" name="key" value="hot">hot<br>
+            </p>
+          </div>
+        </div>
+
+
+
+        <button data-bs-toggle="collapse" class="btn btn-success m-1" data-bs-target="#storm">Storm</button>
+        <div id="storm" class="collapse">
+        <div class="card text-center">
+            <p class="card-text">
+              <input type="checkbox" name="key" value="hail">hail<br>
+              <input type="checkbox" name="key" value="thunder">thunder<br>
+              <input type="checkbox" name="key" value="storm">storm<br>
+              <input type="checkbox" name="key" value="wind">wind<br>
+            </p>
+        </div>
+        </div>
+
+
+        <button data-bs-toggle="collapse" class="btn btn-success m-1" data-bs-target="#hydrometeology">Hydrometeology</button>
+        <div id="hydrometeology" class="collapse">
+        <div class="card text-center">
+            <p class="card-text">
+              <input type="checkbox" name="key" value="rain">rain<br>
+              <input type="checkbox" name="key" value="flood">flood<br>
+              <input type="checkbox" name="key" value="drought">drought<br>
+              <input type="checkbox" name="key" value="frost">frost<br>
+              <input type="checkbox" name="key" value="snow">snow<br>
+              <input type="checkbox" name="key" value="ice (in general)">ice (in general)<br>
+              <input type="checkbox" name="key" value="frozen river / lake / sea">frozen river / lake / sea<br>
+            </p>
+          </div>
+        </div>
+
+
+
+        <button data-bs-toggle="collapse" class="btn btn-success m-1" data-bs-target="#tectonic">Tectonic</button>
+        <div id="tectonic" class="collapse">
+        <div class="card text-center">
+            <p class="card-text">
+              <input type="checkbox" name="key" value="earthquake">earthquake<br>
+              <input type="checkbox" name="key" value="earth fissure">earth fissure<br>
+              <input type="checkbox" name="key" value="tsunami">tsunami<br>
+              <input type="checkbox" name="key" value="vulcanic eruption">vulcanic eruption<br>
+            </p>
+          </div>
+        </div>
+
+
+        <button data-bs-toggle="collapse" class="btn btn-success m-1" data-bs-target="#atmospheric">Atmospheric</button>
+        <div id="atmospheric" class="collapse">
+        <div class="card text-center">
+            <p class="card-text">
+              <input type="checkbox" name="key" value="comet / meteor">comet / meteor<br>
+              <input type="checkbox" name="key" value="planet conjunction">planet conjunction<br>
+              <input type="checkbox" name="key" value="mock sun">mock sun<br>
+              <input type="checkbox" name="key" value="solar eclipse">solar eclipse<br>
+              <input type="checkbox" name="key" value="lunar eclipse">lunar eclipse<br>
+            </p>
+            <p class="card-text">
+              <input type="checkbox" name="key" value="red sky">red sky<br>
+              <input type="checkbox" name="key" value="blue sky">blue sky<br>
+              <input type="checkbox" name="key" value="dark sky / cloudy">dark sky / cloudy<br>
+              <input type="checkbox" name="key" value="sunny">sunny<br>
+              <input type="checkbox" name="key" value="air pollution">air pollution<br>
+            </p>
+            <p class="card-text">
+              <input type="checkbox" name="key" value="god / heaven">god / heaven<br>
+              <input type="checkbox" name="key" value="bad omen">bad omen<br>
+              <input type="checkbox" name="key" value="apocalyptic flood">apocalyptic flood<br>
+              <input type="checkbox" name="key" value="blood rain">blood rain<br>
+              <input type="checkbox" name="key" value="blood snow">blood snow<br>
+            </p>
+          </div>
+        </div>
+
+
+
+        <button data-bs-toggle="collapse" class="btn btn-success m-1" data-bs-target="#disease">Disease</button>
+        <div id="disease" class="collapse">
+        <div class="card text-center">
+            <p class="card-text">
+              <input type="checkbox" name="key" value="zootic disease not defined, symptoms not stated">zootic disease not defined, symptoms not stated<br>
+              <input type="checkbox" name="key" value="zootic disease with symptoms description">zootic disease with symptoms description<br>
+              <input type="checkbox" name="key" value="human disease not defined, symptoms not stated">human disease not defined, symptoms not stated<br>
+              <input type="checkbox" name="key" value="human disease with symptoms description">human disease with symptoms description<br>
+            </p>
+          </div>
+        </div>
+
+
+        <button data-bs-toggle="collapse" class="btn btn-success m-1" data-bs-target="#agriculture">Agriculture / botany</button>
+        <div id="agriculture" class="collapse">
+        <div class="card text-center">
+            <p class="card-text">
+              <input type="checkbox" name="key" value="great fertility">great fertility<br>
+              <input type="checkbox" name="key" value="insects">insects<br>
+              <input type="checkbox" name="key" value="harvest failure">harvest failure<br>
+              <input type="checkbox" name="key" value="blood rain">blood rain<br>
+              <input type="checkbox" name="key" value="blood snow">blood snow<br>
+            </p>
+            <p class="card-text">
+              <input type="checkbox" name="key" value="harvest failure in general">harvest failure in general<br>
+              <input type="checkbox" name="key" value="grain damage">grain damage<br>
+              <input type="checkbox" name="key" value="bean damage">bean damage<br>
+              <input type="checkbox" name="key" value="rice damage">rice damage<br>
+              <input type="checkbox" name="key" value="herb damage">herb damage<br>
+            </p>
+            <p class="card-text">
+              <input type="checkbox" name="key" value="tree damage in general">tree damage in general<br>
+              <input type="checkbox" name="key" value="fruit damage">fruit damage<br>
+              <input type="checkbox" name="key" value="vinery damage">vinery damage<br>
+              <input type="checkbox" name="key" value="olive tree damage">olive tree damage<br>
+              <input type="checkbox" name="key" value="fig tree damage">fig tree damage<br>
+              <input type="checkbox" name="key" value="pine tree damage">pine tree damage<br>
+            </p>
+            <p class="card-text">
+              <input type="checkbox" name="key" value="vine blossom">vine blossom<br>
+              <input type="checkbox" name="key" value="cherry blossom">cherry blossom<br>
+              <input type="checkbox" name="key" value="plum blossom">plum blossom<br>
+            </p>
+          </div>
+        </div>
+
+
+        <button data-bs-toggle="collapse" class="btn btn-success m-1" data-bs-target="#economic">Economic</button>
+        <div id="economic" class="collapse">
+        <div class="card text-center">
+            <p class="card-text">
+              <input type="checkbox" name="key" value="trade activity in general">trade activity in general<br>
+              <input type="checkbox" name="key" value="grain export">grain export<br>
+              <input type="checkbox" name="key" value="grain import">grain import<br>
+            </p>
+          </div>
+        </div>
+
+
+
+        <button data-bs-toggle="collapse" class="btn btn-success m-1" data-bs-target="#fire">Fire</button>
+        <div id="fire" class="collapse">
+        <div class="card text-center">
+            <p class="card-text">
+              <input type="checkbox" name="key" value="fire, without specific locatio">fire, without specific location<br>
+              <input type="checkbox" name="key" value="fire, with specific location">fire, with specific location<br>
+            </p>
+          </div>
+        </div>
+
+
+        <button data-bs-toggle="collapse" class="btn btn-success m-1" data-bs-target="#society">Society</button>
+        <div id="society" class="collapse">
+        <div class="card text-center">
+            <p class="card-text">
+              <input type="checkbox" name="key" value="famine">famine<br>
+              <input type="checkbox" name="key" value="food riot">food riot<br>
+              <input type="checkbox" name="key" value="price gauging">price gauging<br>
+              <input type="checkbox" name="key" value="robbery">robbery<br>
+              <input type="checkbox" name="key" value="piratry">piratry<br>
+            </p>
+            <p class="card-text">
+              <input type="checkbox" name="key" value="alcohol ban">alcohol ban<br>
+              <input type="checkbox" name="key" value="luxury ban">luxury ban<br>
+            </p>
+            <p class="card-text">
+              <input type="checkbox" name="key" value="alm">alm<br>
+              <input type="checkbox" name="key" value="offering">offering<br>
+              <input type="checkbox" name="key" value="supplication">supplication<br>
+            </p>
+          </div>
+        </div>
+
+
+        <button data-bs-toggle="collapse" class="btn btn-success m-1" data-bs-target="#mortality">Mortality</button>
+        <div id="mortality" class="collapse">
+        <div class="card text-center">
+            <p class="card-text">
+              <input type="checkbox" name="key" value="zootic mortality, without numeric data">zootic mortality, without numeric data<br>
+              <input type="checkbox" name="key" value="zootic mortality, with numeric data">zootic mortality, with numeric data<br>
+              <input type="checkbox" name="key" value="human mortality, without numeric data">human mortality, without numeric data<br>
+              <input type="checkbox" name="key" value="human mortality, with numeric data">human mortality, with numeric data<br>
+            </p>
+          </div>
+        </div>
+
+
+        <button data-bs-toggle="collapse" class="btn btn-success m-1" data-bs-target="#sourcegenre">Source genre</button>
+        <div id="sourcegenre" class="collapse">
+        <div class="card text-center">
+            <p class="card-text">
+              <input type="checkbox" name="key" value="chronicle">chronicle<br>
+              <input type="checkbox" name="key" value="annals">annals<br>
+              <input type="checkbox" name="key" value="annals">gesta<br>
+              <input type="checkbox" name="key" value="annals">vita<br>
+              <input type="checkbox" name="key" value="diary">diary<br>
+            </p>
+          </div>
+        </div>
+
+
+        <button data-bs-toggle="collapse" class="btn btn-success m-1" data-bs-target="#published">Published / unpublished</button>
+        <div id="published" class="collapse">
+        <div class="card text-center">
+            <p class="card-text">
+              <input type="checkbox" name="key" value="edited">edited<br>
+              <input type="checkbox" name="key" value="archival material">archival material<br>
+            </p>
+          </div>
+        </div>
+
+        <button data-bs-toggle="collapse" class="btn btn-success m-1" data-bs-target="#contemporaneity">Contemporaneity</button>
+        <div id="contemporaneity" class="collapse">
+        <div class="card text-center">
+            <p class="card-text">
+              <input type="checkbox" name="key" value="is contemporary">is contemporary<br>
+              <input type="checkbox" name="key" value="is possibly contemporary">is possibly contemporary<br>
+              <input type="checkbox" name="key" value="not contemporary">not contemporary<br>
+              <input type="checkbox" name="key" value="contemporaneity is unknown">contemporaneity is unknown<br>
+            </p>
+          </div>
+        </div>
+
+
+      </div>
     </div>
+
+
   </div>
-</div>
-
-<div class="col-md-3 col-sm-6 col-xs-12 p-3 my-1">
-  <div class="card text-center">
-    <div class="card-header">temperature</div>
-    <div class="card-body">
-      <p class="card-text">
-        <input type="checkbox" name="key" value="cold">cold<br>
-        <input type="checkbox" name="key" value="hot">hot<br>
-      </p>
-    </div>
-  </div>
-</div>
 
 
-<div class="col-md-3 col-sm-6 col-xs-12 p-3 my-1">
-  <div class="card text-center">
-    <div class="card-header">storm</div>
-    <div class="card-body">
-      <p class="card-text">
-        <input type="checkbox" name="key" value="hail">hail<br>
-        <input type="checkbox" name="key" value="thunder">thunder<br>
-        <input type="checkbox" name="key" value="storm">storm<br>
-        <input type="checkbox" name="key" value="wind">wind<br>
-      </p>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-3 col-sm-6 col-xs-12 p-3 my-1">
-  <div class="card text-center">
-    <div class="card-header">hydrometeology</div>
-    <div class="card-body">
-      <p class="card-text">
-        <input type="checkbox" name="key" value="rain">rain<br>
-        <input type="checkbox" name="key" value="flood">flood<br>
-        <input type="checkbox" name="key" value="drought">drought<br>
-        <input type="checkbox" name="key" value="frost">frost<br>
-        <input type="checkbox" name="key" value="snow">snow<br>
-        <input type="checkbox" name="key" value="ice (in general)">ice (in general)<br>
-        <input type="checkbox" name="key" value="frozen river / lake / sea">frozen river / lake / sea<br>
-      </p>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-3 col-sm-6 col-xs-12 p-3 my-1">
-  <div class="card text-center">
-    <div class="card-header">tectonic</div>
-    <div class="card-body">
-      <p class="card-text">
-        <input type="checkbox" name="key" value="earthquake">earthquake<br>
-        <input type="checkbox" name="key" value="earth fissure">earth fissure<br>
-        <input type="checkbox" name="key" value="tsunami">tsunami<br>
-        <input type="checkbox" name="key" value="vulcanic eruption">vulcanic eruption<br>
-      </p>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-3 col-sm-6 col-xs-12 p-3 my-1">
-  <div class="card text-center">
-    <div class="card-header">atmospheric 1</div>
-    <div class="card-body">
-      <p class="card-text">
-        <input type="checkbox" name="key" value="comet / meteor">comet / meteor<br>
-        <input type="checkbox" name="key" value="planet conjunction">planet conjunction<br>
-        <input type="checkbox" name="key" value="mock sun">mock sun<br>
-        <input type="checkbox" name="key" value="solar eclipse">solar eclipse<br>
-        <input type="checkbox" name="key" value="lunar eclipse">lunar eclipse<br>
-      </p>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-3 col-sm-6 col-xs-12 p-3 my-1">
-  <div class="card text-center">
-    <div class="card-header">atmospheric 2</div>
-    <div class="card-body">
-      <p class="card-text">
-        <input type="checkbox" name="key" value="red sky">red sky<br>
-        <input type="checkbox" name="key" value="blue sky">blue sky<br>
-        <input type="checkbox" name="key" value="dark sky / cloudy">dark sky / cloudy<br>
-        <input type="checkbox" name="key" value="sunny">sunny<br>
-        <input type="checkbox" name="key" value="air pollution">air pollution<br>
-      </p>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-3 col-sm-6 col-xs-12 p-3 my-1">
-  <div class="card text-center">
-    <div class="card-header">supernatural</div>
-    <div class="card-body">
-      <p class="card-text">
-        <input type="checkbox" name="key" value="god / heaven">god / heaven<br>
-        <input type="checkbox" name="key" value="bad omen">bad omen<br>
-        <input type="checkbox" name="key" value="apocalyptic flood">apocalyptic flood<br>
-        <input type="checkbox" name="key" value="blood rain">blood rain<br>
-        <input type="checkbox" name="key" value="blood snow">blood snow<br>
-      </p>
-    </div>
-  </div>
-</div>
-
-
-<div class="col-md-3 col-sm-6 col-xs-12 p-3 my-1">
-  <div class="card text-center">
-    <div class="card-header">disease</div>
-    <div class="card-body">
-      <p class="card-text">
-        <input type="checkbox" name="key" value="zootic disease not defined, symptoms not stated">zootic disease not defined, symptoms not stated<br>
-        <input type="checkbox" name="key" value="zootic disease with symptoms description">zootic disease with symptoms description<br>
-        <input type="checkbox" name="key" value="human disease not defined, symptoms not stated">human disease not defined, symptoms not stated<br>
-        <input type="checkbox" name="key" value="human disease with symptoms description">human disease with symptoms description<br>
-      </p>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-3 col-sm-6 col-xs-12 p-3 my-1">
-  <div class="card text-center">
-    <div class="card-header">agriculture / botany 1</div>
-    <div class="card-body">
-      <p class="card-text">
-        <input type="checkbox" name="key" value="great fertility">great fertility<br>
-        <input type="checkbox" name="key" value="insects">insects<br>
-        <input type="checkbox" name="key" value="harvest failure">harvest failure<br>
-        <input type="checkbox" name="key" value="blood rain">blood rain<br>
-        <input type="checkbox" name="key" value="blood snow">blood snow<br>
-      </p>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-3 col-sm-6 col-xs-12 p-3 my-1">
-  <div class="card text-center">
-    <div class="card-header">agriculture / botany 2</div>
-    <div class="card-body">
-      <p class="card-text">
-        <input type="checkbox" name="key" value="harvest failure in general">harvest failure in general<br>
-        <input type="checkbox" name="key" value="grain damage">grain damage<br>
-        <input type="checkbox" name="key" value="bean damage">bean damage<br>
-        <input type="checkbox" name="key" value="rice damage">rice damage<br>
-        <input type="checkbox" name="key" value="herb damage">herb damage<br>
-      </p>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-3 col-sm-6 col-xs-12 p-3 my-1">
-  <div class="card text-center">
-    <div class="card-header">agriculture / botany 3</div>
-    <div class="card-body">
-      <p class="card-text">
-        <input type="checkbox" name="key" value="tree damage in general">tree damage in general<br>
-        <input type="checkbox" name="key" value="fruit damage">fruit damage<br>
-        <input type="checkbox" name="key" value="vinery damage">vinery damage<br>
-        <input type="checkbox" name="key" value="olive tree damage">olive tree damage<br>
-        <input type="checkbox" name="key" value="fig tree damage">fig tree damage<br>
-        <input type="checkbox" name="key" value="pine tree damage">pine tree damage<br>
-      </p>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-3 col-sm-6 col-xs-12 p-3 my-1">
-  <div class="card text-center">
-    <div class="card-header">agriculture / botany 4</div>
-    <div class="card-body">
-      <p class="card-text">
-        <input type="checkbox" name="key" value="vine blossom">vine blossom<br>
-        <input type="checkbox" name="key" value="cherry blossom">cherry blossom<br>
-        <input type="checkbox" name="key" value="plum blossom">plum blossom<br>
-      </p>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-3 col-sm-6 col-xs-12 p-3 my-1">
-  <div class="card text-center">
-    <div class="card-header">economic</div>
-    <div class="card-body">
-      <p class="card-text">
-        <input type="checkbox" name="key" value="trade activity in general">trade activity in general<br>
-        <input type="checkbox" name="key" value="grain export">grain export<br>
-        <input type="checkbox" name="key" value="grain import">grain import<br>
-      </p>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-3 col-sm-6 col-xs-12 p-3 my-1">
-  <div class="card text-center">
-    <div class="card-header">fire</div>
-    <div class="card-body">
-      <p class="card-text">
-        <input type="checkbox" name="key" value="fire without specific locatio">fire, without specific location<br>
-        <input type="checkbox" name="key" value="fire with specific location">fire, with specific location<br>
-      </p>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-3 col-sm-6 col-xs-12 p-3 my-1">
-  <div class="card text-center">
-    <div class="card-header">society 1</div>
-    <div class="card-body">
-      <p class="card-text">
-        <input type="checkbox" name="key" value="famine">famine<br>
-        <input type="checkbox" name="key" value="food riot">food riot<br>
-        <input type="checkbox" name="key" value="price gauging">price gauging<br>
-        <input type="checkbox" name="key" value="robbery">robbery<br>
-        <input type="checkbox" name="key" value="piratry">piratry<br>
-      </p>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-3 col-sm-6 col-xs-12 p-3 my-1">
-  <div class="card text-center">
-    <div class="card-header">society 2</div>
-    <div class="card-body">
-      <p class="card-text">
-        <input type="checkbox" name="key" value="alcohol ban">alcohol ban<br>
-        <input type="checkbox" name="key" value="luxury ban">luxury ban<br>
-      </p>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-3 col-sm-6 col-xs-12 p-3 my-1">
-  <div class="card text-center">
-    <div class="card-header">society 3</div>
-    <div class="card-body">
-      <p class="card-text">
-        <input type="checkbox" name="key" value="alm">alm<br>
-        <input type="checkbox" name="key" value="offering">offering<br>
-        <input type="checkbox" name="key" value="supplication">supplication<br>
-      </p>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-3 col-sm-6 col-xs-12 p-3 my-1">
-  <div class="card text-center">
-    <div class="card-header">mortality</div>
-    <div class="card-body">
-      <p class="card-text">
-        <input type="checkbox" name="key" value="zootic mortality, without numeric data">zootic mortality, without numeric data<br>
-        <input type="checkbox" name="key" value="zootic mortality, with numeric data">zootic mortality, with numeric data<br>
-        <input type="checkbox" name="key" value="human mortality, without numeric data">human mortality, without numeric data<br>
-        <input type="checkbox" name="key" value="human mortality, with numeric data">human mortality, with numeric data<br>
-      </p>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-3 col-sm-6 col-xs-12 p-3 my-1">
-  <div class="card text-center">
-    <div class="card-header">source genre</div>
-    <div class="card-body">
-      <p class="card-text">
-        <input type="checkbox" name="key" value="chronicle">chronicle<br>
-        <input type="checkbox" name="key" value="annals">annals<br>
-        <input type="checkbox" name="key" value="diary">diary<br>
-      </p>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-3 col-sm-6 col-xs-12 p-3 my-1">
-  <div class="card text-center">
-    <div class="card-header">published / unpublished </div>
-    <div class="card-body">
-      <p class="card-text">
-        <input type="checkbox" name="key" value="edited">edited<br>
-        <input type="checkbox" name="key" value="archival material">archival material<br>
-      </p>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-3 col-sm-6 col-xs-12 p-3 my-1">
-  <div class="card text-center">
-    <div class="card-header">contemporaneity</div>
-    <div class="card-body">
-      <p class="card-text">
-        <input type="checkbox" name="key" value="is contemporary">is contemporary<br>
-        <input type="checkbox" name="key" value="is possibly contemporary">is possibly contemporary<br>
-        <input type="checkbox" name="key" value="not contemporary">not contemporary<br>
-        <input type="checkbox" name="key" value="contemporaneity is unknown">contemporaneity is unknown<br>
-      </p>
-    </div>
-  </div>
-</div>
-
-
-</div>
-</div>
+  <div class="col-sm-9 p-3">
 
 
 
-<table id="example" class="display" style="width:100%">
-        <thead>
-            <tr>
-                <th></th>
-                <th>Event start</th>
-                <th>Source state</th>
-                <th>Keywords</th>
-                <th>Source quote</th>
-                <th>Contemporaneity</th>
-            </tr>
-        </thead>
-        <tfoot>
-            <tr>
-                <th></th>
-                <th>Event start</th>
-                <th>Source state</th>
-                <th>Keywords</th>
-                <th>Source quote</th>
-                <th>Contemporaneity</th>
-            </tr>
-        </tfoot>
+    <table id="example" class="display" style="width:100%">
+      <thead>
+        <tr>
+          <th></th>
+          <th>Event start</th>
+          <th>Source state</th>
+          <th>Keywords</th>
+          <th>Source quote</th>
+          <th>Contemporaneity</th>
+        </tr>
+      </thead>
+      <tfoot>
+        <tr>
+          <th></th>
+          <th>Event start</th>
+          <th>Source state</th>
+          <th>Keywords</th>
+          <th>Source quote</th>
+          <th>Contemporaneity</th>
+        </tr>
+      </tfoot>
     </table>
+
+  </div>
+</div>
 
 
 
