@@ -8,15 +8,15 @@ function format(d) {
         '<td>' +
         d.author_name +
         '</td>' +
-        '<td>lived from:</td>' +
+        '<td>Lived from:</td>' +
         '<td>' +
         d.author_lived_from +
         '</td>' +
-        '<td>lived until:</td>' +
+        '<td>Lived until:</td>' +
         '<td>' +
         d.author_lived_until +
         '</td>' +
-        '<td>lived in:</td>' +
+        '<td>Lived in:</td>' +
         '<td>' +
         d.author_lived_in +
         '</td>' +
@@ -108,7 +108,7 @@ $(document).ready(function () {
     
     // Create DataTable
     var table = $('#example').DataTable({
-        "ajax": 'https://raw.githubusercontent.com/Historical-Matrix-Online/Historical-Matrix-Online.github.io/main/testdata/testdata_historical2.txt',
+        "ajax": 'https://raw.githubusercontent.com/Historical-Matrix-Online/Historical-Matrix-Online.github.io/main/testdata/testdata_mghss1.txt',
     order: [
       [1, 'asc']
     ],
