@@ -103,12 +103,14 @@ function format(d) {
 }
 
 
+
+
 $(document).ready(function () {
       
     
     // Create DataTable
     var table = $('#example').DataTable({
-        "ajax": 'https://raw.githubusercontent.com/Historical-Matrix-Online/Historical-Matrix-Online.github.io/main/testdata/testdata_mghss1.txt',
+        "ajax": 'https://raw.githubusercontent.com/Historical-Matrix-Online/Historical-Matrix-Online.github.io/main/testdata/merged_data.txt',
     order: [
       [1, 'asc']
     ],
