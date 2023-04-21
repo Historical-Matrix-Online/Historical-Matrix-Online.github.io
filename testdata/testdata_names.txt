@@ -1,0 +1,6 @@
+[
+    {
+    "name": "Peter",
+    "occupation": "manager",    
+    }
+  ];
