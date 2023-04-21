@@ -1,4 +1,17 @@
-          body {
+.navbar {
+  background-color: DarkGreen;
+}
+
+.h-icon {
+  border: 2px solid white;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  font-family: helvetica neue;
+  font-size: 22px;
+}  
+  
+  body {
             font-family: arial;
             min-width: 350px;
             min-height: 700px;
