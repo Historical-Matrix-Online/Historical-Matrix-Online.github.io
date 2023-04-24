@@ -151,7 +151,7 @@ $('input:checkbox').on('change', function () {
 
 
    //now filter in column 2, with no regex, no smart filtering, not case sensitive
-   table.column(3).search(keywords, true, false, false).draw(false);
+   table.column().search(keywords, true, false, false).draw(false);
 
  });
     
