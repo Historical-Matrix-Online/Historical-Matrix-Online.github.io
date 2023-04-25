@@ -137,6 +137,11 @@ input[name="key"] {
 }
 
 
+.childrow {
+  padding-left: 12px;
+}
+
+
 
 /* MULTIPLE CHARTS */
 
