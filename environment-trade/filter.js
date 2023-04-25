@@ -4,6 +4,8 @@ function format(d) {
   return (
   	'<div class="row childrow">' +
     'Source reference: '+ d.source_reference + ' p.' + d.source_reference_page +
+    '<br>' +
+    'Publication status: '+ d.publication_status +
     '</div>' + 
     '<div class="row childrow bg-light">' +
     'Trade: '+ d.trade_from + ' -' + d.trade_to +
