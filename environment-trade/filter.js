@@ -14,6 +14,7 @@ function format(d) {
     '<div class="col-sm-6">' +
    	'Author name: '+ d.author_name + 
     '<br>' +
+    '<br>' +
     'Author occupation: '+ d.author_occupation + 
     '<br>' +
     'Author lifespan: '+ d.author_lived_from + '-' + d.author_lived_until +
@@ -25,6 +26,8 @@ function format(d) {
     'Source name: '+ d.source_name + 
     '<br>' +
     'Source genre: '+ d.source_genre + 
+    '<br>' +
+    'Source environment: '+ d.source_environment + 
     '<br>' +
     'Source context: '+ d.source_context_from + '-' + d.source_context_until +
     '<br>' +
