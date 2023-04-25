@@ -2,103 +2,45 @@
 function format(d) {
   // `d` is the original data object for the row
   return (
-    '<table cellpadding="5" cellspacing="0" border="0" style="width:100%">' +
-    '<tr>' +
-    '<td>Author name:</td>' +
-    '<td>' +
-    d.author_name +
-    '</td>' +
-    '<td>Lived from:</td>' +
-    '<td>' +
-    d.author_lived_from +
-    '</td>' +
-    '<td>Lived until:</td>' +
-    '<td>' +
-    d.author_lived_until +
-    '</td>' +
-    '<td>Lived in:</td>' +
-    '<td>' +
-    d.author_lived_in +
-    '</td>' +
-    '</tr>' +
-
-    '<tr>' +
-    '<td>Source name:</td>' +
-    '<td>' +
-    d.source_name +
-    '</td>' +
-    '<td>Written from:</td>' +
-    '<td>' +
-    d.source_written_from +
-    '</td>' +
-    '<td>Written until:</td>' +
-    '<td>' +
-    d.source_written_until +
-    '</td>' +
-    '<td>Written in:</td>' +
-    '<td>' +
-    d.source_written_in +
-    '</td>' +
-    '</tr>' +
-
-    '<tr>' +
-    '<td>Source reference:</td>' +
-    '<td>' +
-    d.source_reference + ', p. ' + d.source_reference_page +
-    '</td>' +
-    '<td>Translation:</td>' +
-    '<td>' +
-    d.translation +
-    '</td>' +
-    '<td>Translation reference:</td>' +
-    '<td>' +
-    d.translation_reference + ', p. ' + d.translation_reference_page +
-    '</td>' +
-    '<td>Publication status:</td>' +
-    '<td>' +
-    d.publication_status +
-    '</td>' +
-    '</tr>' +
-
-    '<tr>' +
-    '<td>Source genre:</td>' +
-    '<td>' +
-    d.source_genre +
-    '</td>' +
-    '<td>Context from:</td>' +
-    '<td>' +
-    d.source_context_from +
-    '</td>' +
-    '<td>Context until:</td>' +
-    '<td>' +
-    d.source_context_until +
-    '</td>' +
-    '<td>////</td>' +
-    '<td>' +
-    d.undefined +
-    '</td>' +
-    '</tr>' +
-
-    '<tr>' +
-    '<td>Further links:</td>' +
-    '<td>' +
-    d.further_links +
-    '</td>' +
-    '<td>Notes:</td>' +
-    '<td>' +
-    d.notes +
-    '</td>' +
-    '<td>Trade from</td>' +
-    '<td>' +
-    d.trade_from +
-    '</td>' +
-    '<td>////</td>' +
-    '<td>' +
-    d.trade_to +
-    '</td>' +
-    '</tr>' +
-
-    '</table>'
+  	'<div class="row childrow">' +
+    'Source reference: '+ d.source_reference + ' p.' + d.source_reference_page +
+    '</div>' + 
+    '<div class="row childrow bg-light">' +
+    'Trade: '+ d.trade_from + ' -' + d.trade_to +
+    '</div>' + 
+    '<div class="row">'+
+    '<div class="col-sm-6">' +
+   	'Author name: '+ d.author_name + 
+    '<br>' +
+    'Author occupation: '+ d.author_occupation + 
+    '<br>' +
+    'Author lifespan: '+ d.author_lived_from + '-' + d.author_lived_until +
+    '<br>' +
+    '<br>' +
+    'Author lived in: '+ d.author_lived_in +
+    '</div>' +
+    '<div class="col-sm-6">' + 
+    'Source name: '+ d.source_name + 
+    '<br>' +
+    'Source genre: '+ d.source_genre + 
+    '<br>' +
+    'Source context: '+ d.source_context_from + '-' + d.source_context_until +
+    '<br>' +
+    'Source written: '+ d.source_written_from + '-' + d.source_written_until +
+    '<br>' +
+    'Source written in: '+ d.author_lived_in +
+    '</div>' + 
+    '</div>' + 
+    '<div class="row childrow bg-light">' +
+    'Translation: '+ d.translation + 
+    '<br>' +
+    'Translation reference: '+ d.translation_reference + d.translation_reference_page +
+    '</div>' + 
+    '<div class="row childrow">' +
+    'Further links: '+ d.further_links +
+    '<br>' +
+    'Notes: '+ d.notes +
+    '</div>'
   );
 }
 
@@ -422,4 +364,3 @@ function chartData4(table) {
     };
   });
 }
-
