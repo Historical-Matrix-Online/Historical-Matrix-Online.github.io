@@ -419,3 +419,4 @@ function chartData4(table) {
     };
   });
 }
+
