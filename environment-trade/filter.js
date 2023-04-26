@@ -15,6 +15,7 @@ function format(d) {
     '<div class="col-sm-4">' + 
     'Season: '+ d.season +
     '</div>' + 
+    '</div>' + 
   	'<div class="row childrow">' +
     'Publication status: '+ d.publication_status +
     '</div>' + 
