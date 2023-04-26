@@ -275,7 +275,7 @@ $(document).ready(function() {
 
   var chart2 = Highcharts.chart(container2[0], {
     chart: {
-      type: 'bar',
+      type: 'pie',
     },
     title: {
       text: 'Source genre count',
@@ -297,10 +297,10 @@ $(document).ready(function() {
 
   var chart3 = Highcharts.chart(container3[0], {
     chart: {
-      type: 'line',
+      type: 'pie',
     },
     title: {
-      text: 'Source author count',
+      text: 'Season count',
     },
     series: [{
       data: chartData3(table),
@@ -319,7 +319,7 @@ $(document).ready(function() {
 
   var chart4 = Highcharts.chart(container4[0], {
     chart: {
-      type: 'area',
+      type: 'pie',
     },
     title: {
       text: 'Publication status count',
@@ -374,7 +374,7 @@ function chartData2(table) {
 
   // Count the number of entries for each position
   table
-    .column(6, {
+    .column(8, {
       search: 'applied'
     })
     .data()
@@ -402,7 +402,7 @@ function chartData3(table) {
 
   // Count the number of entries for each position
   table
-    .column(6, {
+    .column(9, {
       search: 'applied'
     })
     .data()
@@ -430,7 +430,7 @@ function chartData4(table) {
 
   // Count the number of entries for each position
   table
-    .column(6, {
+    .column(7, {
       search: 'applied'
     })
     .data()
