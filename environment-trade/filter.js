@@ -142,9 +142,39 @@ $(document).ready(function() {
       "infoEmpty": ""
     },
     buttons: [
-      'copy', 'csv', 'excel', 'pdf', 'print'
-    ]
+      'copy', 'csv', 'excel', 'pdf', 
+      {
+                extend: 'print',
+                text: 'Print all',
+                exportOptions: {
+                    modifier: {
+                        selected: null
+                    }
+                }
+            },
+            {
+                extend: 'print',
+                text: 'Print selected'
+            }
+        ],
+        select: true
+      
   });
+  
+  
+  
+  ///////////// ROW SELECTION
+  $(document).ready(function () {
+    var table = $('#example').DataTable();
+ 
+    $('#example tbody').on('click', 'tr', function () {
+        $(this).toggleClass('selected');
+    });
+ 
+    $('#button').click(function () {
+        alert(table.rows('.selected').data().length + ' row(s) selected');
+    });
+});
 
   /////////////CHECKBOXES
 
@@ -419,4 +449,3 @@ function chartData4(table) {
     };
   });
 }
-
