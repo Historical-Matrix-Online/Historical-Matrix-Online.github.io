@@ -3,8 +3,19 @@ function format(d) {
   // `d` is the original data object for the row
   return (
   	'<div class="row childrow">' +
-    'Source reference: '+ d.source_reference + ' p.' + d.source_reference_page +
-    '<br>' +
+    'Source reference: '+ d.source_reference + ' ' + d.source_reference_page +
+    '</div>' + 
+    '<div class="row childrow bg-light">' +
+    '<div class="col-sm-4">' + 
+    'Event start: '+ d.event_start +
+    '</div>' + 
+    '<div class="col-sm-4">' + 
+    'Event end: '+ d.event_end +
+    '</div>' + 
+    '<div class="col-sm-4">' + 
+    'Season: '+ d.season +
+    '</div>' + 
+  	'<div class="row childrow">' +
     'Publication status: '+ d.publication_status +
     '</div>' + 
     '<div class="row childrow bg-light">' +
@@ -57,7 +68,7 @@ $(document).ready(function() {
 
   // Create DataTable
   var table = $('#example').DataTable({
-    "ajax": 'https://raw.githubusercontent.com/Historical-Matrix-Online/Historical-Matrix-Online.github.io/main/environment-trade/data/merged.json',
+    "ajax": 'https://raw.githubusercontent.com/Historical-Matrix-Online/Historical-Matrix-Online.github.io/main/environment-trade/data/MGH/MGH_SS1.json',
     order: [
       [1, 'asc']
     ],
@@ -99,6 +110,10 @@ $(document).ready(function() {
         data: 'source_genre',
         title: 'Source genre'
       },
+      {
+        data: 'season',
+        title: 'Season'
+      },
     ],
     columnDefs: [{
         target: 6,
@@ -110,6 +125,10 @@ $(document).ready(function() {
       },
       {
         target: 8,
+        visible: false,
+      },
+      {
+        target: 9,
         visible: false,
       },
     ],
@@ -130,16 +149,47 @@ $(document).ready(function() {
   /////////////CHECKBOXES
 
   $('input:checkbox').on('change', function() {
-    //build a filter string with an or(|) condition
-    var keywords = $('input:checkbox[name="key"]:checked').map(function() {
+    //filter keywords
+    var checkbox_keywords = $('input:checkbox[name="key"]:checked').map(function() {
       return this.value;
     }).get().join('|');
+    
+    table.column(3).search(checkbox_keywords, true, false, false).draw(false);
+
+   //filter source genre
+   var checkbox_genre = $('input:checkbox[name="genre"]:checked').map(function() {
+     return this.value;
+   }).get().join('|');
+   
+   table.column(8).search(checkbox_genre, true, false, false).draw(false);
+   
+   //filter publication status
+   var checkbox_publication = $('input:checkbox[name="pub"]:checked').map(function() {
+     return this.value;
+   }).get().join('|');
+   
+   table.column(7).search(checkbox_publication, true, false, false).draw(false);
+
+   //filter contemporaneity
+   var checkbox_contemporaneity = $('input:checkbox[name="contemp"]:checked').map(function() {
+     return this.value;
+   }).get().join('|');
+   
+   table.column(5).search(checkbox_contemporaneity, true, false, false).draw(false);
+   
+   //filter contemporaneity
+   var checkbox_season = $('input:checkbox[name="season"]:checked').map(function() {
+     return this.value;
+   }).get().join('|');
+   
+   table.column(9).search(checkbox_season, true, false, false).draw(false);
 
 
-    //now filter in column 2, with no regex, no smart filtering, not case sensitive
-    table.column(8).search(keywords, true, false, false).draw(false);
+
 
   });
+  
+
 
 
   ///////////////////////CHILD ROW
