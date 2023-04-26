@@ -95,11 +95,11 @@
         <div id="season" class="collapse show">
           <div class="card text-center">
             <p class="card-text">
-              <input type="checkbox" name="key" value="spring">spring<br>
-              <input type="checkbox" name="key" value="summer">summer<br>
-              <input type="checkbox" name="key" value="autumn">autumn<br>
-              <input type="checkbox" name="key" value="winter">winter<br>
-              <input type="checkbox" name="key" value="season not specified">not specified<br>
+              <input type="checkbox" name="season" value="spring">spring<br>
+              <input type="checkbox" name="season" value="summer">summer<br>
+              <input type="checkbox" name="season" value="autumn">autumn<br>
+              <input type="checkbox" name="season" value="winter">winter<br>
+              <input type="checkbox" name="season" value="season not specified">not specified<br>
             </p>
           </div>
         </div>
@@ -109,6 +109,7 @@
         <div id="temperature" class="collapse">
           <div class="card text-center">
             <p class="card-text">
+              <input type="checkbox" name="key" value="cold">mild<br>
               <input type="checkbox" name="key" value="cold">cold<br>
               <input type="checkbox" name="key" value="hot">hot<br>
             </p>
@@ -134,6 +135,7 @@
         <div id="hydrometeology" class="collapse">
           <div class="card text-center">
             <p class="card-text">
+              <input type="checkbox" name="key" value="moisture">moisture<br>
               <input type="checkbox" name="key" value="rain">rain<br>
               <input type="checkbox" name="key" value="flood">flood<br>
               <input type="checkbox" name="key" value="drought">drought<br>
@@ -164,11 +166,12 @@
         <div id="atmospheric" class="collapse">
           <div class="card text-center">
             <p class="card-text">
-              <input type="checkbox" name="key" value="comet / meteor">comet / meteor<br>
+              <input type="checkbox" name="key" value="comet / meteor / shooting star">comet / meteor / shooting star<br>
               <input type="checkbox" name="key" value="planet conjunction">planet conjunction<br>
               <input type="checkbox" name="key" value="mock sun">mock sun<br>
               <input type="checkbox" name="key" value="solar eclipse">solar eclipse<br>
               <input type="checkbox" name="key" value="lunar eclipse">lunar eclipse<br>
+              <input type="checkbox" name="key" value="anomaly of the moon">anomaly of the moon<br>
             </p>
             <p class="card-text">
               <input type="checkbox" name="key" value="red sky">red sky<br>
@@ -178,8 +181,7 @@
               <input type="checkbox" name="key" value="air pollution">air pollution<br>
             </p>
             <p class="card-text">
-              <input type="checkbox" name="key" value="god / heaven">god / heaven<br>
-              <input type="checkbox" name="key" value="bad omen">bad omen<br>
+              <input type="checkbox" name="key" value="miracle / omen">miracle / omen<br>
               <input type="checkbox" name="key" value="apocalyptic flood">apocalyptic flood<br>
               <input type="checkbox" name="key" value="blood rain">blood rain<br>
               <input type="checkbox" name="key" value="blood snow">blood snow<br>
@@ -193,9 +195,10 @@
         <div id="disease" class="collapse">
           <div class="card text-center">
             <p class="card-text">
-              <input type="checkbox" name="key" value="zootic disease not defined, symptoms not stated">zootic disease not defined, symptoms not stated<br>
-              <input type="checkbox" name="key" value="zootic disease with symptoms description">zootic disease with symptoms description<br>
-              <input type="checkbox" name="key" value="human disease not defined, symptoms not stated">human disease not defined, symptoms not stated<br>
+            <input type="checkbox" name="key" value="disease (in general)">disease (in general)<br>
+              <input type="checkbox" name="key" value="zoonotic disease not defined & symptoms not stated">zootic disease not defined & symptoms not stated<br>
+              <input type="checkbox" name="key" value="zoonotic disease with description of symptoms">zootic disease with description of symptoms <br>
+              <input type="checkbox" name="key" value="human disease not defined, symptoms not stated">human disease not defined & symptoms not stated<br>
               <input type="checkbox" name="key" value="human disease with symptoms description">human disease with symptoms description<br>
             </p>
           </div>
@@ -208,16 +211,14 @@
             <p class="card-text">
               <input type="checkbox" name="key" value="great fertility">great fertility<br>
               <input type="checkbox" name="key" value="insects">insects<br>
-              <input type="checkbox" name="key" value="harvest failure">harvest failure<br>
-              <input type="checkbox" name="key" value="blood rain">blood rain<br>
-              <input type="checkbox" name="key" value="blood snow">blood snow<br>
             </p>
             <p class="card-text">
-              <input type="checkbox" name="key" value="harvest failure in general">harvest failure in general<br>
+              <input type="checkbox" name="key" value="crop failure (in general)">crop failure (in general)<br>
               <input type="checkbox" name="key" value="grain damage">grain damage<br>
               <input type="checkbox" name="key" value="bean damage">bean damage<br>
               <input type="checkbox" name="key" value="rice damage">rice damage<br>
               <input type="checkbox" name="key" value="herb damage">herb damage<br>
+              <input type="checkbox" name="key" value="vegetables damage">vegetables damage<br>
             </p>
             <p class="card-text">
               <input type="checkbox" name="key" value="tree damage in general">tree damage in general<br>
@@ -240,9 +241,13 @@
         <div id="economic" class="collapse">
           <div class="card text-center">
             <p class="card-text">
-              <input type="checkbox" name="key" value="trade activity in general">trade activity in general<br>
+              <input type="checkbox" name="key" value="trade activity (in general)">trade activity (in general)<br>
               <input type="checkbox" name="key" value="grain export">grain export<br>
-              <input type="checkbox" name="key" value="grain import">grain import<br>
+              <input type="checkbox" name="key" value="grain import">grain import<br><br>
+              <input type="checkbox" name="key" value="price gauging">price gauging<br>
+              <input type="checkbox" name="key" value="price mentioned (in general)">price mentioned (in general)<br>
+              <input type="checkbox" name="key" value="price increase">price increase<br>
+              <input type="checkbox" name="key" value="price increase">price decrease<br><br>
             </p>
           </div>
         </div>
@@ -253,8 +258,8 @@
         <div id="fire" class="collapse">
           <div class="card text-center">
             <p class="card-text">
-              <input type="checkbox" name="key" value="fire, without specific locatio">fire, without specific location<br>
-              <input type="checkbox" name="key" value="fire, with specific location">fire, with specific location<br>
+              <input type="checkbox" name="key" value="fire without specific locatio">fire without specific location<br>
+              <input type="checkbox" name="key" value="fire with specific location">fire with specific location<br>
             </p>
           </div>
         </div>
@@ -265,8 +270,8 @@
           <div class="card text-center">
             <p class="card-text">
               <input type="checkbox" name="key" value="famine">famine<br>
+              <input type="checkbox" name="key" value="famine">cannibalism<br>
               <input type="checkbox" name="key" value="food riot">food riot<br>
-              <input type="checkbox" name="key" value="price gauging">price gauging<br>
               <input type="checkbox" name="key" value="robbery">robbery<br>
               <input type="checkbox" name="key" value="piratry">piratry<br>
             </p>
@@ -287,10 +292,11 @@
         <div id="mortality" class="collapse">
           <div class="card text-center">
             <p class="card-text">
-              <input type="checkbox" name="key" value="zootic mortality, without numeric data">zootic mortality, without numeric data<br>
-              <input type="checkbox" name="key" value="zootic mortality, with numeric data">zootic mortality, with numeric data<br>
-              <input type="checkbox" name="key" value="human mortality, without numeric data">human mortality, without numeric data<br>
-              <input type="checkbox" name="key" value="human mortality, with numeric data">human mortality, with numeric data<br>
+            <input type="checkbox" name="key" value="mortality (in general)">mortality (in general)<br>
+              <input type="checkbox" name="key" value="zoonotic mortality without numeric data">zoonotic mortality without numeric data<br>
+              <input type="checkbox" name="key" value="zoonotic mortality with numeric data">zoonotic mortality with numeric data<br>
+              <input type="checkbox" name="key" value="human mortality without numeric data">human mortality without numeric data<br>
+              <input type="checkbox" name="key" value="human mortality with numeric data">human mortality with numeric data<br>
             </p>
           </div>
         </div>
@@ -300,11 +306,11 @@
         <div id="sourcegenre" class="collapse">
           <div class="card text-center">
             <p class="card-text">
-              <input type="checkbox" name="key" value="chronicle">chronicle<br>
-              <input type="checkbox" name="key" value="annals">annals<br>
-              <input type="checkbox" name="key" value="gesta">gesta<br>
-              <input type="checkbox" name="key" value="vita">vita<br>
-              <input type="checkbox" name="key" value="diary">diary<br>
+              <input type="checkbox" name="genre" value="chronicle">chronicle<br>
+              <input type="checkbox" name="genre" value="annals">annals<br>
+              <input type="checkbox" name="genre" value="gesta">gesta<br>
+              <input type="checkbox" name="genre" value="vita">vita<br>
+              <input type="checkbox" name="genre" value="diary">diary<br>
             </p>
           </div>
         </div>
@@ -314,8 +320,8 @@
         <div id="published" class="collapse">
           <div class="card text-center">
             <p class="card-text">
-              <input type="checkbox" name="key" value="edited">edited<br>
-              <input type="checkbox" name="key" value="archival material">archival material<br>
+              <input type="checkbox" name="pub" value="edited">edited<br>
+              <input type="checkbox" name="pub" value="archival material">archival material<br>
             </p>
           </div>
         </div>
@@ -324,10 +330,10 @@
         <div id="contemporaneity" class="collapse">
           <div class="card text-center">
             <p class="card-text">
-              <input type="checkbox" name="key" value="is contemporary">is contemporary<br>
-              <input type="checkbox" name="key" value="is possibly contemporary">is possibly contemporary<br>
-              <input type="checkbox" name="key" value="not contemporary">not contemporary<br>
-              <input type="checkbox" name="key" value="contemporaneity is unknown">contemporaneity is unknown<br>
+              <input type="checkbox" name="contemp" value="is contemporary">is contemporary<br>
+              <input type="checkbox" name="contemp" value="is possibly contemporary">is possibly contemporary<br>
+              <input type="checkbox" name="contemp" value="not contemporary">not contemporary<br>
+              <input type="checkbox" name="contemp" value="contemporaneity is unknown">contemporaneity is unknown<br>
             </p>
           </div>
         </div>
@@ -401,6 +407,7 @@
       <th>Source name</th>
       <th>Publication status</th>
       <th>Source genre</th>
+      <th>Season</th>
     </tr>
   </thead>
   <tfoot>
@@ -413,12 +420,14 @@
       <th>Contemporaneity</th>
       <th>Publication status</th>
       <th>Source genre</th>
+      <th>Season</th>
     </tr>
   </tfoot>
 </table>
 
 </div>
 </div>
+
 
 
 
