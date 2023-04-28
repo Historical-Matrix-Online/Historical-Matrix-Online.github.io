@@ -1,16 +1,16 @@
 {
   "data":
-[
+  [
   {
-    "event_start": "711-00-00",
+    "event_start": "0711-00-00",
     "event_end": "711-00-00",
     "season": "season not specified",
     "source_state": "",
     "keywords": "flood",
-    "author_name": "",
-    "author_occupation": "",
-    "author_lived_from": "",
-    "author_lived_until": "",
+    "author_name": "unknown",
+    "author_occupation": "unknown",
+    "author_lived_from": "unknown",
+    "author_lived_until": "unknown",
     "source_name": "Annales Petaviani",
     "source_genre": "annals",
     "source_environment": "",
@@ -28,21 +28,21 @@
     "translation_reference_page": "",
     "trade_from": "",
     "trade_to": "",
-    "contemporaneity": "is contemporary",
+    "contemporaneity": "reception",
     "further links": "https://www.geschichtsquellen.de/werk/354",
-    "notes": "",
+    "notes": "Possibly taken from Annales S. Amandi and Annales Laureshamenses",
     "": ""
   },
   {
-    "event_start": "755-00-00",
+    "event_start": "0755-00-00",
     "event_end": "755-00-00",
     "season": "season not specified",
     "source_state": "",
     "keywords": "solar eclipse",
-    "author_name": "",
-    "author_occupation": "",
-    "author_lived_from": "",
-    "author_lived_until": "",
+    "author_name": "unknown",
+    "author_occupation": "unknown",
+    "author_lived_from": "unknown",
+    "author_lived_until": "unknown",
     "source_name": "Annales Laubacenses",
     "source_genre": "annals",
     "source_environment": "",
@@ -50,7 +50,7 @@
     "source_written_until": "912-00-00",
     "source_context_from": "687-00-00",
     "source_context_until": "912-00-00",
-    "source_written_in": "",
+    "source_written_in": "Lobbes (Belgium)",
     "source_quote": "Eclypsis solis.",
     "source_reference": "Pertz, Georg Heinrich (ed.): Monumenta Germaniae Historica, Scriptores, vol. 1, Hannover 1826",
     "source_reference_page": "p. 9",
@@ -60,13 +60,13 @@
     "translation_reference_page": "",
     "trade_from": "",
     "trade_to": "",
-    "contemporaneity": "is not contemporary",
+    "contemporaneity": "reception",
     "further links": "https://www.geschichtsquellen.de/werk/306",
-    "notes": "",
+    "notes": "Possibly taken from Annales S. Amandi.",
     "": ""
   },
   {
-    "event_start": "761-00-00",
+    "event_start": "0761-00-00",
     "event_end": "761-00-00",
     "season": "season not specified",
     "source_state": "",
@@ -82,7 +82,7 @@
     "source_written_until": "",
     "source_context_from": "",
     "source_context_until": "",
-    "source_written_in": "",
+    "source_written_in": "Rheinau (Switzerland)",
     "source_quote": "eclipsis solis.",
     "source_reference": "Pertz, Georg Heinrich (ed.): Monumenta Germaniae Historica, Scriptores, vol. 1, Hannover 1826",
     "source_reference_page": "p. 10",
@@ -98,7 +98,7 @@
     "": ""
   },
   {
-    "event_start": "763-00-00",
+    "event_start": "0763-00-00",
     "event_end": "763-00-00",
     "season": "season not specified",
     "source_state": "",
@@ -130,7 +130,7 @@
     "": ""
   },
   {
-    "event_start": "764-00-00",
+    "event_start": "0764-00-00",
     "event_end": "764-00-00",
     "season": "season not specified",
     "source_state": "",
@@ -162,7 +162,7 @@
     "": ""
   },
   {
-    "event_start": "764-00-00",
+    "event_start": "0764-00-00",
     "event_end": "764-00-00",
     "season": "winter",
     "source_state": "",
@@ -194,7 +194,7 @@
     "": ""
   },
   {
-    "event_start": "764-00-00",
+    "event_start": "0764-00-00",
     "event_end": "764-00-00",
     "season": "winter",
     "source_state": "",
@@ -226,7 +226,7 @@
     "": ""
   },
   {
-    "event_start": "789-00-00",
+    "event_start": "0789-00-00",
     "event_end": "789-00-00",
     "season": "season not specified",
     "source_state": "",
@@ -258,7 +258,7 @@
     "": ""
   },
   {
-    "event_start": 809,
+    "event_start": "0809-0",
     "event_end": "",
     "season": "winter",
     "source_state": "",
@@ -290,7 +290,7 @@
     "": ""
   },
   {
-    "event_start": "807-00-00",
+    "event_start": "0807-00-00",
     "event_end": "807-00-00",
     "season": "season not specified",
     "source_state": "",
@@ -322,7 +322,7 @@
     "": ""
   },
   {
-    "event_start": "811-00-00",
+    "event_start": "0811-00-00",
     "event_end": "811-00-00",
     "season": "season not specified",
     "source_state": "",
@@ -354,7 +354,7 @@
     "": ""
   },
   {
-    "event_start": "813-00-00",
+    "event_start": "0813-00-00",
     "event_end": "813-00-00",
     "season": "season not specified",
     "source_state": "",
@@ -386,7 +386,7 @@
     "": ""
   },
   {
-    "event_start": "863-00-00",
+    "event_start": "0863-00-00",
     "event_end": "863-00-00",
     "season": "season not specified",
     "source_state": "",
@@ -418,7 +418,7 @@
     "": ""
   },
   {
-    "event_start": "711-00-00",
+    "event_start": "0711-00-00",
     "event_end": "711-00-00",
     "season": "season not specified",
     "source_state": "",
@@ -450,7 +450,7 @@
     "": ""
   },
   {
-    "event_start": "711 (712)",
+    "event_start": "0711 (712)",
     "event_end": "",
     "season": "",
     "source_state": "",
@@ -482,7 +482,7 @@
     "": ""
   },
   {
-    "event_start": "764-00-00",
+    "event_start": "0764-00-00",
     "event_end": "764-00-00",
     "season": "winter",
     "source_state": "",
@@ -514,7 +514,7 @@
     "": ""
   },
   {
-    "event_start": "764-00-00",
+    "event_start": "0764-00-00",
     "event_end": "764-00-00",
     "season": "winter",
     "source_state": "",
@@ -546,7 +546,7 @@
     "": ""
   },
   {
-    "event_start": 797,
+    "event_start": "0797-0",
     "event_end": "",
     "season": "autumn",
     "source_state": "",
@@ -578,7 +578,7 @@
     "": ""
   },
   {
-    "event_start": "793-00-00",
+    "event_start": "0793-00-00",
     "event_end": "793-00-00",
     "season": "season not specified",
     "source_state": "",
@@ -610,7 +610,7 @@
     "": ""
   },
   {
-    "event_start": 840,
+    "event_start": "0840-0",
     "event_end": "",
     "season": "",
     "source_state": "",
@@ -642,7 +642,7 @@
     "": ""
   },
   {
-    "event_start": "849-00-00",
+    "event_start": "0849-00-00",
     "event_end": "849-00-00",
     "season": "season not specified",
     "source_state": "",
@@ -674,7 +674,7 @@
     "": ""
   },
   {
-    "event_start": "860-00-00",
+    "event_start": "0860-00-00",
     "event_end": "860-00-00",
     "season": "winter",
     "source_state": "",
@@ -706,7 +706,7 @@
     "": ""
   },
   {
-    "event_start": "861-00-00",
+    "event_start": "0861-00-00",
     "event_end": "861-00-00",
     "season": "season not specified",
     "source_state": "",
@@ -738,7 +738,7 @@
     "": ""
   },
   {
-    "event_start": "867-00-00",
+    "event_start": "0867-00-00",
     "event_end": "867-00-00",
     "season": "season not specified",
     "source_state": "",
@@ -770,7 +770,7 @@
     "": ""
   },
   {
-    "event_start": "868-00-00",
+    "event_start": "0868-00-00",
     "event_end": "868-00-00",
     "season": "season not specified",
     "source_state": "",
@@ -802,7 +802,7 @@
     "": ""
   },
   {
-    "event_start": "882-00-00",
+    "event_start": "0882-00-00",
     "event_end": "882-00-00",
     "season": "season not specified",
     "source_state": "",
@@ -834,7 +834,7 @@
     "": ""
   },
   {
-    "event_start": "891-00-00",
+    "event_start": "0891-00-00",
     "event_end": "891-00-00",
     "season": "season not specified",
     "source_state": "",
@@ -866,7 +866,7 @@
     "": ""
   },
   {
-    "event_start": "891-00-00",
+    "event_start": "0891-00-00",
     "event_end": "891-00-00",
     "season": "season not specified",
     "source_state": "",
@@ -898,7 +898,7 @@
     "": ""
   },
   {
-    "event_start": "893-00-00",
+    "event_start": "0893-00-00",
     "event_end": "893-00-00",
     "season": "season not specified",
     "source_state": "",
@@ -930,7 +930,7 @@
     "": ""
   },
   {
-    "event_start": "893-00-00",
+    "event_start": "0893-00-00",
     "event_end": "893-00-00",
     "season": "season not specified",
     "source_state": "",
@@ -962,7 +962,7 @@
     "": ""
   },
   {
-    "event_start": "894-00-00",
+    "event_start": "0894-00-00",
     "event_end": "894-00-00",
     "season": "season not specified",
     "source_state": "",
@@ -994,7 +994,7 @@
     "": ""
   },
   {
-    "event_start": "895-00-00",
+    "event_start": "0895-00-00",
     "event_end": "895-00-00",
     "season": "season not specified",
     "source_state": "",
@@ -1026,7 +1026,7 @@
     "": ""
   },
   {
-    "event_start": "895-00-00",
+    "event_start": "0895-00-00",
     "event_end": "895-00-00",
     "season": "season not specified",
     "source_state": "",
@@ -1058,7 +1058,7 @@
     "": ""
   },
   {
-    "event_start": 764,
+    "event_start": "0764-0",
     "event_end": "",
     "season": "",
     "source_state": "",
@@ -1090,7 +1090,7 @@
     "": ""
   },
   {
-    "event_start": "708-00-00",
+    "event_start": "0708-00-00",
     "event_end": "708-00-00",
     "season": "winter",
     "source_state": "",
@@ -1122,7 +1122,7 @@
     "": ""
   },
   {
-    "event_start": "764-00-00",
+    "event_start": "0764-00-00",
     "event_end": "764-00-00",
     "season": "winter",
     "source_state": "",
@@ -1154,7 +1154,7 @@
     "": ""
   },
   {
-    "event_start": "779-00-00",
+    "event_start": "0779-00-00",
     "event_end": "779-00-00",
     "season": "season not specified",
     "source_state": "",
@@ -1186,7 +1186,7 @@
     "": ""
   },
   {
-    "event_start": "860-00-00",
+    "event_start": "0860-00-00",
     "event_end": "860-00-00",
     "season": "winter",
     "source_state": "",
@@ -1218,7 +1218,7 @@
     "": ""
   },
   {
-    "event_start": "868-00-00",
+    "event_start": "0868-00-00",
     "event_end": "868-00-00",
     "season": "season not specified",
     "source_state": "",
@@ -1250,7 +1250,7 @@
     "": ""
   },
   {
-    "event_start": "873-00-00",
+    "event_start": "0873-00-00",
     "event_end": "873-00-00",
     "season": "season not specified",
     "source_state": "",
@@ -1282,7 +1282,7 @@
     "": ""
   },
   {
-    "event_start": "881-00-00",
+    "event_start": "0881-00-00",
     "event_end": "881-00-00",
     "season": "winter",
     "source_state": "",
@@ -1314,7 +1314,7 @@
     "": ""
   },
   {
-    "event_start": "779-00-00",
+    "event_start": "0779-00-00",
     "event_end": "779-00-00",
     "season": "season not specified",
     "source_state": "",
@@ -1346,7 +1346,7 @@
     "": ""
   },
   {
-    "event_start": 840,
+    "event_start": "0840-0",
     "event_end": "",
     "season": "",
     "source_state": "",
@@ -1378,7 +1378,7 @@
     "": ""
   },
   {
-    "event_start": "868-00-00",
+    "event_start": "0868-00-00",
     "event_end": "868-00-00",
     "season": "season not specified",
     "source_state": "",
@@ -1410,7 +1410,7 @@
     "": ""
   },
   {
-    "event_start": 878,
+    "event_start": "0878-0",
     "event_end": "",
     "season": "",
     "source_state": "",
@@ -1442,7 +1442,7 @@
     "": ""
   },
   {
-    "event_start": "896-00-00",
+    "event_start": "0896-00-00",
     "event_end": "896-00-00",
     "season": "season not specified",
     "source_state": "",
@@ -1474,7 +1474,7 @@
     "": ""
   },
   {
-    "event_start": "913-00-00",
+    "event_start": "0913-00-00",
     "event_end": "913-00-00",
     "season": "winter",
     "source_state": "",
@@ -1506,8 +1506,8 @@
     "": ""
   },
   {
-    "event_start": "927-00-00",
-    "event_end": "927-00-00",
+    "event_start": "0927-00-00",
+    "event_end": "0927-00-00",
     "season": "winter",
     "source_state": "",
     "keywords": "cold",
@@ -1538,8 +1538,8 @@
     "": ""
   },
   {
-    "event_start": "954-00-00",
-    "event_end": "954-00-00",
+    "event_start": "0954-00-00",
+    "event_end": "0954-00-00",
     "season": "season not specified",
     "source_state": "",
     "keywords": "earthquake",
@@ -1570,7 +1570,7 @@
     "": ""
   },
   {
-    "event_start": 1262,
+    "event_start": "1262-0",
     "event_end": "",
     "season": "",
     "source_state": "",
@@ -1602,8 +1602,8 @@
     "": ""
   },
   {
-    "event_start": "709-00-00",
-    "event_end": "709-00-00",
+    "event_start": "0709-00-00",
+    "event_end": "0709-00-00",
     "season": "winter",
     "source_state": "",
     "keywords": "cold",
@@ -1634,8 +1634,8 @@
     "": ""
   },
   {
-    "event_start": "712-00-00",
-    "event_end": "712-00-00",
+    "event_start": "0712-00-00",
+    "event_end": "0712-00-00",
     "season": "season not specified",
     "source_state": "",
     "keywords": "flood",
@@ -1666,9 +1666,9 @@
     "": ""
   },
   {
-    "event_start": "764 (762)",
+    "event_start": "0764 (762)",
     "event_end": "",
-    "season": "",
+    "season": "winter",
     "source_state": "",
     "keywords": "cold",
     "author_name": "",
@@ -1698,7 +1698,7 @@
     "": ""
   },
   {
-    "event_start": "849-00-00",
+    "event_start": "0849-00-00",
     "event_end": "849-00-00",
     "season": "season not specified",
     "source_state": "",
@@ -1730,9 +1730,9 @@
     "": ""
   },
   {
-    "event_start": 860,
-    "event_end": "",
-    "season": "",
+    "event_start": "0860-00-00",
+    "event_end": "0860-00-00",
+    "season": "winter",
     "source_state": "",
     "keywords": "cold, zoonotic mortality without numeric data",
     "author_name": "",
@@ -1762,7 +1762,7 @@
     "": ""
   },
   {
-    "event_start": "861-00-00",
+    "event_start": "0861-00-00",
     "event_end": "861-00-00",
     "season": "season not specified",
     "source_state": "",
@@ -1794,7 +1794,7 @@
     "": ""
   },
   {
-    "event_start": "867-00-00",
+    "event_start": "0867-00-00",
     "event_end": "867-00-00",
     "season": "season not specified",
     "source_state": "",
@@ -1826,7 +1826,7 @@
     "": ""
   },
   {
-    "event_start": "868-00-00",
+    "event_start": "0868-00-00",
     "event_end": "868-00-00",
     "season": "season not specified",
     "source_state": "",
@@ -1858,7 +1858,7 @@
     "": ""
   },
   {
-    "event_start": "911-00-00",
+    "event_start": "0911-00-00",
     "event_end": "911-00-00",
     "season": "season not specified",
     "source_state": "",
@@ -1890,7 +1890,7 @@
     "": ""
   },
   {
-    "event_start": 913,
+    "event_start": "0913-0",
     "event_end": "",
     "season": "",
     "source_state": "",
@@ -1922,7 +1922,7 @@
     "": ""
   },
   {
-    "event_start": 939,
+    "event_start": "0939-0",
     "event_end": "",
     "season": "autumn",
     "source_state": "",
@@ -1954,7 +1954,7 @@
     "": ""
   },
   {
-    "event_start": "941-00-00",
+    "event_start": "0941-00-00",
     "event_end": "941-00-00",
     "season": "season not specified",
     "source_state": "",
@@ -1986,7 +1986,7 @@
     "": ""
   },
   {
-    "event_start": 944,
+    "event_start": "0944-0",
     "event_end": "",
     "season": "",
     "source_state": "",
@@ -2018,7 +2018,7 @@
     "": ""
   },
   {
-    "event_start": 945,
+    "event_start": "0945-0",
     "event_end": "",
     "season": "",
     "source_state": "",
@@ -2050,7 +2050,7 @@
     "": ""
   },
   {
-    "event_start": "959-00-00",
+    "event_start": "0959-00-00",
     "event_end": "959-00-00",
     "season": "season not specified",
     "source_state": "",
@@ -2082,7 +2082,7 @@
     "": ""
   },
   {
-    "event_start": "968 (970)",
+    "event_start": "0968 (970)",
     "event_end": "",
     "season": "",
     "source_state": "",
@@ -2114,7 +2114,7 @@
     "": ""
   },
   {
-    "event_start": 975,
+    "event_start": "0975-0",
     "event_end": "",
     "season": "",
     "source_state": "",
@@ -2146,7 +2146,7 @@
     "": ""
   },
   {
-    "event_start": "989 (995)",
+    "event_start": "0989 (995)",
     "event_end": "",
     "season": "",
     "source_state": "",
@@ -2178,7 +2178,7 @@
     "": ""
   },
   {
-    "event_start": "995 (1001)",
+    "event_start": "0995 (1001)",
     "event_end": "",
     "season": "",
     "source_state": "",
@@ -2210,7 +2210,7 @@
     "": ""
   },
   {
-    "event_start": "998 (1003)",
+    "event_start": "0998 (1003)",
     "event_end": "",
     "season": "",
     "source_state": "",
@@ -2402,7 +2402,7 @@
     "": ""
   },
   {
-    "event_start": 810,
+    "event_start": "0810-0",
     "event_end": "",
     "season": "",
     "source_state": "",
@@ -2434,7 +2434,7 @@
     "": ""
   },
   {
-    "event_start": "964-00-00",
+    "event_start": "0964-00-00",
     "event_end": "964-00-00",
     "season": "season not specified",
     "source_state": "",
@@ -2466,7 +2466,7 @@
     "": ""
   },
   {
-    "event_start": "810-00-00",
+    "event_start": "0810-00-00",
     "event_end": "810-00-00",
     "season": "season not specified",
     "source_state": "",
@@ -2498,7 +2498,7 @@
     "": ""
   },
   {
-    "event_start": "823-00-00",
+    "event_start": "0823-00-00",
     "event_end": "823-00-00",
     "season": "season not specified",
     "source_state": "",
@@ -2530,7 +2530,7 @@
     "": ""
   },
   {
-    "event_start": "865-00-00",
+    "event_start": "0865-00-00",
     "event_end": "865-00-00",
     "season": "season not specified",
     "source_state": "",
@@ -2562,7 +2562,7 @@
     "": ""
   },
   {
-    "event_start": "896-00-00",
+    "event_start": "0896-00-00",
     "event_end": "896-00-00",
     "season": "season not specified",
     "source_state": "",
@@ -2594,7 +2594,7 @@
     "": ""
   },
   {
-    "event_start": "860-00-00",
+    "event_start": "0860-00-00",
     "event_end": "860-00-00",
     "season": "winter",
     "source_state": "",
@@ -2626,7 +2626,7 @@
     "": ""
   },
   {
-    "event_start": "822-00-00",
+    "event_start": "0822-00-00",
     "event_end": "822-00-00",
     "season": "season not specified",
     "source_state": "",
@@ -2658,7 +2658,7 @@
     "": ""
   },
   {
-    "event_start": "868 (869)",
+    "event_start": "0868 (869)",
     "event_end": "",
     "season": "",
     "source_state": "",
@@ -2690,7 +2690,7 @@
     "": ""
   },
   {
-    "event_start": "868 (869)",
+    "event_start": "0868 (869)",
     "event_end": "",
     "season": "",
     "source_state": "",
@@ -2722,7 +2722,7 @@
     "": ""
   },
   {
-    "event_start": "875-00-00",
+    "event_start": "0875-00-00",
     "event_end": "875-00-00",
     "season": "season not specified",
     "source_state": "",
@@ -2754,7 +2754,7 @@
     "": ""
   },
   {
-    "event_start": "896-00-00",
+    "event_start": "0896-00-00",
     "event_end": "896-00-00",
     "season": "season not specified",
     "source_state": "",
@@ -2786,7 +2786,7 @@
     "": ""
   },
   {
-    "event_start": "912-00-00",
+    "event_start": "0912-00-00",
     "event_end": "912-00-00",
     "season": "season not specified",
     "source_state": "",
@@ -2818,7 +2818,7 @@
     "": ""
   },
   {
-    "event_start": 939,
+    "event_start": "0939-0",
     "event_end": "",
     "season": "",
     "source_state": "",
@@ -2850,7 +2850,7 @@
     "": ""
   },
   {
-    "event_start": "987-00-00",
+    "event_start": "0987-00-00",
     "event_end": "987-00-00",
     "season": "season not specified",
     "source_state": "",
@@ -2914,7 +2914,7 @@
     "": ""
   },
   {
-    "event_start": 1050,
+    "event_start": "1050-0",
     "event_end": "",
     "season": "",
     "source_state": "",
@@ -2978,7 +2978,7 @@
     "": ""
   },
   {
-    "event_start": 1094,
+    "event_start": "1094-0",
     "event_end": "",
     "season": "",
     "source_state": "",
@@ -3042,7 +3042,7 @@
     "": ""
   },
   {
-    "event_start": 1112,
+    "event_start": "1112-0",
     "event_end": "",
     "season": "winter",
     "source_state": "",
@@ -3106,7 +3106,7 @@
     "": ""
   },
   {
-    "event_start": 806,
+    "event_start": "0806-0",
     "event_end": "",
     "season": "",
     "source_state": "",
@@ -3138,7 +3138,7 @@
     "": ""
   },
   {
-    "event_start": 809,
+    "event_start": "0809-0",
     "event_end": "",
     "season": "",
     "source_state": "",
@@ -3170,7 +3170,7 @@
     "": ""
   },
   {
-    "event_start": 840,
+    "event_start": "0840-0",
     "event_end": "",
     "season": "",
     "source_state": "",
@@ -3202,7 +3202,7 @@
     "": ""
   },
   {
-    "event_start": 868,
+    "event_start": "0868-0",
     "event_end": "",
     "season": "",
     "source_state": "",
@@ -3234,7 +3234,7 @@
     "": ""
   },
   {
-    "event_start": "909 (?)",
+    "event_start": "0909 (?)",
     "event_end": "",
     "season": "",
     "source_state": "",
@@ -3266,7 +3266,7 @@
     "": ""
   },
   {
-    "event_start": 928,
+    "event_start": "0928-0",
     "event_end": "",
     "season": "",
     "source_state": "",
@@ -3298,7 +3298,7 @@
     "": ""
   },
   {
-    "event_start": 1066,
+    "event_start": "1066-0",
     "event_end": "",
     "season": "",
     "source_state": "",
@@ -3330,7 +3330,7 @@
     "": ""
   },
   {
-    "event_start": 1077,
+    "event_start": "1077-0",
     "event_end": "",
     "season": "",
     "source_state": "",
@@ -3362,7 +3362,7 @@
     "": ""
   },
   {
-    "event_start": 1097,
+    "event_start": "1097-0",
     "event_end": "",
     "season": "",
     "source_state": "",
@@ -3394,7 +3394,7 @@
     "": ""
   },
   {
-    "event_start": 1118,
+    "event_start": "1118-0",
     "event_end": "",
     "season": "",
     "source_state": "",
@@ -3426,7 +3426,7 @@
     "": ""
   },
   {
-    "event_start": 1145,
+    "event_start": "1145-0",
     "event_end": "",
     "season": "",
     "source_state": "",
@@ -3490,7 +3490,7 @@
     "": ""
   },
   {
-    "event_start": 840,
+    "event_start": "0840-0",
     "event_end": "",
     "season": "",
     "source_state": "",
@@ -3522,7 +3522,7 @@
     "": ""
   },
   {
-    "event_start": 728,
+    "event_start": "0728-0",
     "event_end": "",
     "season": "",
     "source_state": "",
@@ -3554,7 +3554,7 @@
     "": ""
   },
   {
-    "event_start": 766,
+    "event_start": "0766-0",
     "event_end": "",
     "season": "",
     "source_state": "",
@@ -3586,7 +3586,7 @@
     "": ""
   },
   {
-    "event_start": 773,
+    "event_start": "0773-0",
     "event_end": "",
     "season": "",
     "source_state": "",
@@ -3618,7 +3618,7 @@
     "": ""
   },
   {
-    "event_start": 763,
+    "event_start": "0763-0",
     "event_end": "",
     "season": "",
     "source_state": "",
@@ -3650,7 +3650,7 @@
     "": ""
   },
   {
-    "event_start": 763,
+    "event_start": "0763-0",
     "event_end": "",
     "season": "",
     "source_state": "",
@@ -3682,7 +3682,7 @@
     "": ""
   },
   {
-    "event_start": 764,
+    "event_start": "0764-0",
     "event_end": "",
     "season": "",
     "source_state": "",
@@ -3714,7 +3714,7 @@
     "": ""
   },
   {
-    "event_start": 772,
+    "event_start": "0772-0",
     "event_end": "",
     "season": "",
     "source_state": "",
@@ -3746,7 +3746,7 @@
     "": ""
   },
   {
-    "event_start": 785,
+    "event_start": "0785-0",
     "event_end": "",
     "season": "",
     "source_state": "",
@@ -3778,7 +3778,7 @@
     "": ""
   },
   {
-    "event_start": 784,
+    "event_start": "0784-0",
     "event_end": "",
     "season": "",
     "source_state": "",
@@ -3810,7 +3810,7 @@
     "": ""
   },
   {
-    "event_start": 787,
+    "event_start": "0787-0",
     "event_end": "",
     "season": "",
     "source_state": "",
@@ -3842,7 +3842,7 @@
     "": ""
   },
   {
-    "event_start": 793,
+    "event_start": "0793-0",
     "event_end": "",
     "season": "",
     "source_state": "",
@@ -3874,7 +3874,7 @@
     "": ""
   },
   {
-    "event_start": 800,
+    "event_start": "0800-0",
     "event_end": "",
     "season": "",
     "source_state": "",
@@ -3906,7 +3906,7 @@
     "": ""
   },
   {
-    "event_start": 801,
+    "event_start": "0801-0",
     "event_end": "",
     "season": "",
     "source_state": "",
@@ -3938,7 +3938,7 @@
     "": ""
   },
   {
-    "event_start": 807,
+    "event_start": "0807-0",
     "event_end": "",
     "season": "",
     "source_state": "",
@@ -3970,7 +3970,7 @@
     "": ""
   },
   {
-    "event_start": 808,
+    "event_start": "0808-0",
     "event_end": "",
     "season": "",
     "source_state": "",
@@ -4002,7 +4002,7 @@
     "": ""
   },
   {
-    "event_start": 810,
+    "event_start": "0810-0",
     "event_end": "",
     "season": "",
     "source_state": "",
@@ -4034,7 +4034,7 @@
     "": ""
   },
   {
-    "event_start": 811,
+    "event_start": "0811-0",
     "event_end": "",
     "season": "",
     "source_state": "",
@@ -4066,7 +4066,7 @@
     "": ""
   },
   {
-    "event_start": 812,
+    "event_start": "0812-0",
     "event_end": "",
     "season": "",
     "source_state": "",
@@ -4098,7 +4098,7 @@
     "": ""
   },
   {
-    "event_start": 813,
+    "event_start": "0813-0",
     "event_end": "",
     "season": "",
     "source_state": "",
@@ -4130,7 +4130,7 @@
     "": ""
   },
   {
-    "event_start": 815,
+    "event_start": "0815-0",
     "event_end": "",
     "season": "",
     "source_state": "",
@@ -4162,7 +4162,7 @@
     "": ""
   },
   {
-    "event_start": 817,
+    "event_start": "0817-0",
     "event_end": "",
     "season": "",
     "source_state": "",
@@ -4194,7 +4194,7 @@
     "": ""
   },
   {
-    "event_start": 820,
+    "event_start": "0820-0",
     "event_end": "",
     "season": "",
     "source_state": "",
@@ -4226,7 +4226,7 @@
     "": ""
   },
   {
-    "event_start": 821,
+    "event_start": "0821-0",
     "event_end": "",
     "season": "",
     "source_state": "",
@@ -4258,7 +4258,7 @@
     "": ""
   },
   {
-    "event_start": 828,
+    "event_start": "0828-0",
     "event_end": "",
     "season": "",
     "source_state": "",
@@ -4290,7 +4290,7 @@
     "": ""
   },
   {
-    "event_start": 829,
+    "event_start": "0829-0",
     "event_end": "",
     "season": "",
     "source_state": "",
@@ -4322,7 +4322,7 @@
     "": ""
   },
   {
-    "event_start": 772,
+    "event_start": "0772-0",
     "event_end": "",
     "season": "",
     "source_state": "",
@@ -4354,7 +4354,7 @@
     "": ""
   },
   {
-    "event_start": "800 (801)",
+    "event_start": "0800 (801)",
     "event_end": "",
     "season": "",
     "source_state": "",
@@ -4386,7 +4386,7 @@
     "": ""
   },
   {
-    "event_start": "807 (808)",
+    "event_start": "0807 (808)",
     "event_end": "",
     "season": "",
     "source_state": "",
@@ -4418,7 +4418,7 @@
     "": ""
   },
   {
-    "event_start": 777,
+    "event_start": "0777-0",
     "event_end": "",
     "season": "",
     "source_state": "",
@@ -4450,7 +4450,7 @@
     "": ""
   },
   {
-    "event_start": 784,
+    "event_start": "0784-0",
     "event_end": "",
     "season": "",
     "source_state": "",
@@ -4482,7 +4482,7 @@
     "": ""
   },
   {
-    "event_start": 786,
+    "event_start": "0786-0",
     "event_end": "",
     "season": "",
     "source_state": "",
@@ -4514,7 +4514,7 @@
     "": ""
   },
   {
-    "event_start": 809,
+    "event_start": "0809-0",
     "event_end": "",
     "season": "",
     "source_state": "",
@@ -4546,7 +4546,7 @@
     "": ""
   },
   {
-    "event_start": "813/814",
+    "event_start": "0813/814",
     "event_end": "",
     "season": "",
     "source_state": "",
@@ -4578,7 +4578,7 @@
     "": ""
   },
   {
-    "event_start": 814,
+    "event_start": "0814-0",
     "event_end": "",
     "season": "",
     "source_state": "",
@@ -4610,7 +4610,7 @@
     "": ""
   },
   {
-    "event_start": 711,
+    "event_start": "0711-0",
     "event_end": "",
     "season": "",
     "source_state": "",
@@ -4674,7 +4674,7 @@
     "": ""
   },
   {
-    "event_start": 762,
+    "event_start": "0762-0",
     "event_end": "",
     "season": "",
     "source_state": "",
@@ -4706,7 +4706,7 @@
     "": ""
   },
   {
-    "event_start": 778,
+    "event_start": "0778-0",
     "event_end": "",
     "season": "",
     "source_state": "",
@@ -4738,7 +4738,7 @@
     "": ""
   },
   {
-    "event_start": 779,
+    "event_start": "0779-0",
     "event_end": "",
     "season": "",
     "source_state": "",
@@ -4770,7 +4770,7 @@
     "": ""
   },
   {
-    "event_start": 779,
+    "event_start": "0779-0",
     "event_end": "",
     "season": "",
     "source_state": "",
@@ -4802,7 +4802,7 @@
     "": ""
   },
   {
-    "event_start": 787,
+    "event_start": "0787-0",
     "event_end": "",
     "season": "",
     "source_state": "",
@@ -4834,7 +4834,7 @@
     "": ""
   },
   {
-    "event_start": 809,
+    "event_start": "0809-0",
     "event_end": "",
     "season": "",
     "source_state": "",
@@ -4866,7 +4866,7 @@
     "": ""
   },
   {
-    "event_start": 710,
+    "event_start": "0710-0",
     "event_end": "",
     "season": "",
     "source_state": "",
@@ -4898,7 +4898,7 @@
     "": ""
   },
   {
-    "event_start": 714,
+    "event_start": "0714-0",
     "event_end": "",
     "season": "",
     "source_state": "",
@@ -4930,7 +4930,7 @@
     "": ""
   },
   {
-    "event_start": 717,
+    "event_start": "0717-0",
     "event_end": "",
     "season": "",
     "source_state": "",
@@ -4962,7 +4962,7 @@
     "": ""
   },
   {
-    "event_start": 741,
+    "event_start": "0741-0",
     "event_end": "",
     "season": "",
     "source_state": "",
@@ -4994,7 +4994,7 @@
     "": ""
   },
   {
-    "event_start": 763,
+    "event_start": "0763-0",
     "event_end": "",
     "season": "",
     "source_state": "",
@@ -5026,7 +5026,7 @@
     "": ""
   },
   {
-    "event_start": 772,
+    "event_start": "0772-0",
     "event_end": "",
     "season": "",
     "source_state": "",
@@ -5058,11 +5058,11 @@
     "": ""
   },
   {
-    "event_start": 810,
+    "event_start": "0810-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "zoonotic disease not defined & symptoms not stated",
     "author_name": "unknown",
     "author_occupation": "unknown",
     "author_lived_from": "unknown",
@@ -5090,11 +5090,11 @@
     "": ""
   },
   {
-    "event_start": 812,
+    "event_start": "0812-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "solar eclipse",
     "author_name": "unknown",
     "author_occupation": "unknown",
     "author_lived_from": "unknown",
@@ -5122,11 +5122,11 @@
     "": ""
   },
   {
-    "event_start": 813,
+    "event_start": "0813-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "fire with specific location",
     "author_name": "unknown",
     "author_occupation": "unknown",
     "author_lived_from": "unknown",
@@ -5154,11 +5154,11 @@
     "": ""
   },
   {
-    "event_start": 817,
+    "event_start": "0817-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "solar eclipse, comet / meteor / shooting star",
     "author_name": "unknown",
     "author_occupation": "unknown",
     "author_lived_from": "unknown",
@@ -5186,11 +5186,11 @@
     "": ""
   },
   {
-    "event_start": 820,
+    "event_start": "0820-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "rain, air pollution, human disease not defined & symptoms not stated, zoonotic disease not defined & symptoms not stated, crop failure (in general), vinery damage, cold",
     "author_name": "unknown",
     "author_occupation": "unknown",
     "author_lived_from": "unknown",
@@ -5218,11 +5218,11 @@
     "": ""
   },
   {
-    "event_start": 823,
+    "event_start": "0823-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "miracle / omen, earthquake, fire with specific location, thunder, crop failure (in general), hail, human disease not defined & symptoms not stated, human mortality without numeric data",
     "author_name": "unknown",
     "author_occupation": "unknown",
     "author_lived_from": "unknown",
@@ -5250,11 +5250,11 @@
     "": ""
   },
   {
-    "event_start": 824,
+    "event_start": "0824-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "cold, zoonotic mortality without numeric data, human mortality without numeric data, storm, hail",
     "author_name": "unknown",
     "author_occupation": "unknown",
     "author_lived_from": "unknown",
@@ -5282,11 +5282,11 @@
     "": ""
   },
   {
-    "event_start": 829,
+    "event_start": "0829-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "earthquake",
     "author_name": "unknown",
     "author_occupation": "unknown",
     "author_lived_from": "unknown",
@@ -5314,11 +5314,11 @@
     "": ""
   },
   {
-    "event_start": 832,
+    "event_start": "0832-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "solar eclipse",
     "author_name": "unknown",
     "author_occupation": "unknown",
     "author_lived_from": "unknown",
@@ -5346,11 +5346,11 @@
     "": ""
   },
   {
-    "event_start": 837,
+    "event_start": "0837-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "comet / meteor / shooting star",
     "author_name": "unknown",
     "author_occupation": "unknown",
     "author_lived_from": "unknown",
@@ -5378,11 +5378,11 @@
     "": ""
   },
   {
-    "event_start": 838,
+    "event_start": "0838-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "earthquake",
     "author_name": "unknown",
     "author_occupation": "unknown",
     "author_lived_from": "unknown",
@@ -5410,11 +5410,11 @@
     "": ""
   },
   {
-    "event_start": 839,
+    "event_start": "0839-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "comet / meteor / shooting star, miracle / omen, red sky",
     "author_name": "unknown",
     "author_occupation": "unknown",
     "author_lived_from": "unknown",
@@ -5442,11 +5442,11 @@
     "": ""
   },
   {
-    "event_start": 840,
+    "event_start": "0840-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "solar eclipse",
     "author_name": "unknown",
     "author_occupation": "unknown",
     "author_lived_from": "unknown",
@@ -5474,11 +5474,11 @@
     "": ""
   },
   {
-    "event_start": 841,
+    "event_start": "0841-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "comet / meteor / shooting star",
     "author_name": "unknown",
     "author_occupation": "unknown",
     "author_lived_from": "unknown",
@@ -5506,11 +5506,11 @@
     "": ""
   },
   {
-    "event_start": 842,
+    "event_start": "0842-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "lunar eclipse",
     "author_name": "unknown",
     "author_occupation": "unknown",
     "author_lived_from": "unknown",
@@ -5538,11 +5538,11 @@
     "": ""
   },
   {
-    "event_start": 850,
+    "event_start": "0850-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "famine, price mentioned (in general)",
     "author_name": "unknown",
     "author_occupation": "unknown",
     "author_lived_from": "unknown",
@@ -5570,11 +5570,11 @@
     "": ""
   },
   {
-    "event_start": 855,
+    "event_start": "0855-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "earthquake, storm, hail, thunder, fire with specific location",
     "author_name": "unknown",
     "author_occupation": "unknown",
     "author_lived_from": "unknown",
@@ -5602,11 +5602,11 @@
     "": ""
   },
   {
-    "event_start": 855,
+    "event_start": "0855-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "storm",
     "author_name": "unknown",
     "author_occupation": "unknown",
     "author_lived_from": "unknown",
@@ -5634,11 +5634,11 @@
     "": ""
   },
   {
-    "event_start": 858,
+    "event_start": "0858-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "earthquake",
     "author_name": "unknown",
     "author_occupation": "unknown",
     "author_lived_from": "unknown",
@@ -5666,11 +5666,11 @@
     "": ""
   },
   {
-    "event_start": 860,
+    "event_start": "0860-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "cold, crop failure (in general), tree damage (in general), frozen river / lake / sea, trade activity (in general)",
     "author_name": "unknown",
     "author_occupation": "unknown",
     "author_lived_from": "unknown",
@@ -5690,19 +5690,19 @@
     "translation": "",
     "translation_reference": "",
     "translation_reference_page": "",
-    "trade_from": "",
-    "trade_to": "",
+    "trade_from": "Venice (Italy)",
+    "trade_to": "Venice (Italy)",
     "contemporaneity": "is possibly contemporary",
     "further links": "https://www.geschichtsquellen.de/werk/290",
     "notes": "Second part of the Annales Fuldenses",
     "": ""
   },
   {
-    "event_start": 868,
+    "event_start": "0868-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "comet / meteor / shooting star, flood, crop failure (in general), infrastructure damage, famine, human mortality without numeric data",
     "author_name": "unknown",
     "author_occupation": "unknown",
     "author_lived_from": "unknown",
@@ -5730,11 +5730,11 @@
     "": ""
   },
   {
-    "event_start": 870,
+    "event_start": "0870-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "zoonotic disease not defined & symptoms not stated",
     "author_name": "unknown",
     "author_occupation": "unknown",
     "author_lived_from": "unknown",
@@ -5762,11 +5762,11 @@
     "": ""
   },
   {
-    "event_start": 872,
+    "event_start": "0872-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "earthquake",
     "author_name": "unknown",
     "author_occupation": "unknown",
     "author_lived_from": "unknown",
@@ -5794,11 +5794,11 @@
     "": ""
   },
   {
-    "event_start": 873,
+    "event_start": "0873-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "famine, insects, grain damage, bloody rain",
     "author_name": "unknown",
     "author_occupation": "unknown",
     "author_lived_from": "unknown",
@@ -5826,11 +5826,11 @@
     "": ""
   },
   {
-    "event_start": 874,
+    "event_start": "0874-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "cold, snow, zoonotic mortality without numeric data, human mortality without numeric data",
     "author_name": "unknown",
     "author_occupation": "unknown",
     "author_lived_from": "unknown",
@@ -5858,11 +5858,11 @@
     "": ""
   },
   {
-    "event_start": 874,
+    "event_start": "0874-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "famine, human disease with description of symptoms",
     "author_name": "unknown",
     "author_occupation": "unknown",
     "author_lived_from": "unknown",
@@ -5890,11 +5890,11 @@
     "": ""
   },
   {
-    "event_start": 875,
+    "event_start": "0875-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "comet / meteor / shooting star, miracle / omen, flood, rain, infrastructure damage, human mortality with numeric data, tree damage (in general), vinery damage, zoonotic mortality without numeric data, crop failure (in general)",
     "author_name": "unknown",
     "author_occupation": "unknown",
     "author_lived_from": "unknown",
@@ -5922,11 +5922,11 @@
     "": ""
   },
   {
-    "event_start": 877,
+    "event_start": "0877-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "human disease with description of symptoms, human mortality without numeric data",
     "author_name": "unknown",
     "author_occupation": "unknown",
     "author_lived_from": "unknown",
@@ -5954,11 +5954,11 @@
     "": ""
   },
   {
-    "event_start": 878,
+    "event_start": "0878-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "lunar eclipse, solar eclipse, dark sky / cloudy, zoonotic disease with description of symptoms, human mortality without numeric data",
     "author_name": "unknown",
     "author_occupation": "unknown",
     "author_lived_from": "unknown",
@@ -5986,11 +5986,11 @@
     "": ""
   },
   {
-    "event_start": 881,
+    "event_start": "0881-0",
     "event_end": "",
-    "season": "",
+    "season": "winter, spring",
     "source_state": "",
-    "keywords": "",
+    "keywords": "cold, zoonotic mortality with numeric data, ice (in general), famine",
     "author_name": "unknown",
     "author_occupation": "unknown",
     "author_lived_from": "unknown",
@@ -6018,11 +6018,11 @@
     "": ""
   },
   {
-    "event_start": 881,
+    "event_start": "0881-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "earthquake, infrastructure damage",
     "author_name": "unknown",
     "author_occupation": "unknown",
     "author_lived_from": "unknown",
@@ -6050,11 +6050,11 @@
     "": ""
   },
   {
-    "event_start": 882,
+    "event_start": "0882-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "human disease not defined & symptoms not stated, human mortality without numeric data",
     "author_name": "unknown",
     "author_occupation": "unknown",
     "author_lived_from": "unknown",
@@ -6082,11 +6082,11 @@
     "": ""
   },
   {
-    "event_start": 886,
+    "event_start": "0886-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "flood, cold, zoonotic mortality without numeric data",
     "author_name": "unknown",
     "author_occupation": "unknown",
     "author_lived_from": "unknown",
@@ -6114,11 +6114,11 @@
     "": ""
   },
   {
-    "event_start": 887,
+    "event_start": "0887-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "cold, human disease not defined & symptoms not stated, zoonotic mortality without numeric data",
     "author_name": "unknown",
     "author_occupation": "unknown",
     "author_lived_from": "unknown",
@@ -6146,11 +6146,11 @@
     "": ""
   },
   {
-    "event_start": 889,
+    "event_start": "0889-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "human disease with description of symptoms, flood, grain damage, hail, human mortality with numeric data",
     "author_name": "unknown",
     "author_occupation": "unknown",
     "author_lived_from": "unknown",
@@ -6178,11 +6178,11 @@
     "": ""
   },
   {
-    "event_start": 893,
+    "event_start": "0893-0",
     "event_end": "",
-    "season": "",
+    "season": "winter",
     "source_state": "",
-    "keywords": "",
+    "keywords": "cold, snow, vinery damage, zoonotic mortality without numeric data",
     "author_name": "unknown",
     "author_occupation": "unknown",
     "author_lived_from": "unknown",
@@ -6210,11 +6210,11 @@
     "": ""
   },
   {
-    "event_start": 895,
+    "event_start": "0895-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "earthquake",
     "author_name": "unknown",
     "author_occupation": "unknown",
     "author_lived_from": "unknown",
@@ -6242,11 +6242,11 @@
     "": ""
   },
   {
-    "event_start": 896,
+    "event_start": "0896-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "storm, rain, flood, zoonotic disease not defined & symptoms not stated",
     "author_name": "unknown",
     "author_occupation": "unknown",
     "author_lived_from": "unknown",
@@ -6274,11 +6274,11 @@
     "": ""
   },
   {
-    "event_start": 801,
+    "event_start": "0801-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "earthquake, infrastructure damage",
     "author_name": "Petrus Bibliothecarius",
     "author_occupation": "librarian",
     "author_lived_from": "9th century",
@@ -6306,11 +6306,11 @@
     "": ""
   },
   {
-    "event_start": 806,
+    "event_start": "0806-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "lunar or solar eclipse (not defined)",
     "author_name": "Petrus Bibliothecarius",
     "author_occupation": "librarian",
     "author_lived_from": "9th century",
@@ -6338,11 +6338,11 @@
     "": ""
   },
   {
-    "event_start": 818,
+    "event_start": "0818-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "comet / meteor / shooting star, lunar or solar eclipse (not defined)",
     "author_name": "Petrus Bibliothecarius",
     "author_occupation": "librarian",
     "author_lived_from": "9th century",
@@ -6370,11 +6370,11 @@
     "": ""
   },
   {
-    "event_start": 819,
+    "event_start": "0819-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "lunar or solar eclipse (not defined)",
     "author_name": "Petrus Bibliothecarius",
     "author_occupation": "librarian",
     "author_lived_from": "9th century",
@@ -6402,11 +6402,11 @@
     "": ""
   },
   {
-    "event_start": 833,
+    "event_start": "0833-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "solar eclipse",
     "author_name": "Petrus Bibliothecarius",
     "author_occupation": "librarian",
     "author_lived_from": "9th century",
@@ -6434,11 +6434,11 @@
     "": ""
   },
   {
-    "event_start": 838,
+    "event_start": "0838-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "earthquake, comet / meteor / shooting star, human mortality with numeric data",
     "author_name": "Petrus Bibliothecarius",
     "author_occupation": "librarian",
     "author_lived_from": "9th century",
@@ -6466,11 +6466,11 @@
     "": ""
   },
   {
-    "event_start": 834,
+    "event_start": "0834-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "earthquake",
     "author_name": "Petrus Bibliothecarius",
     "author_occupation": "librarian",
     "author_lived_from": "9th century",
@@ -6498,11 +6498,11 @@
     "": ""
   },
   {
-    "event_start": 840,
+    "event_start": "0840-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "comet / meteor / shooting star",
     "author_name": "Petrus Bibliothecarius",
     "author_occupation": "librarian",
     "author_lived_from": "9th century",
@@ -6530,11 +6530,11 @@
     "": ""
   },
   {
-    "event_start": 843,
+    "event_start": "0843-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "lunar eclipse",
     "author_name": "Petrus Bibliothecarius",
     "author_occupation": "librarian",
     "author_lived_from": "9th century",
@@ -6562,11 +6562,11 @@
     "": ""
   },
   {
-    "event_start": 867,
+    "event_start": "0867-0",
     "event_end": "",
-    "season": "",
+    "season": "winter",
     "source_state": "",
-    "keywords": "",
+    "keywords": "cold, bloody snow",
     "author_name": "Petrus Bibliothecarius",
     "author_occupation": "librarian",
     "author_lived_from": "9th century",
@@ -6594,11 +6594,11 @@
     "": ""
   },
   {
-    "event_start": 878,
+    "event_start": "0878-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "solar eclipse, comet / meteor / shooting star, lunar eclipse, human disease not defined & symptoms not stated, human mortality without numeric data",
     "author_name": "Petrus Bibliothecarius",
     "author_occupation": "librarian",
     "author_lived_from": "9th century",
@@ -6626,11 +6626,11 @@
     "": ""
   },
   {
-    "event_start": 882,
+    "event_start": "0882-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "earthquake",
     "author_name": "Petrus Bibliothecarius",
     "author_occupation": "librarian",
     "author_lived_from": "9th century",
@@ -6658,11 +6658,11 @@
     "": ""
   },
   {
-    "event_start": 832,
+    "event_start": "0832-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "lunar eclipse",
     "author_name": "unknown",
     "author_occupation": "unknown",
     "author_lived_from": "unknown",
@@ -6675,7 +6675,7 @@
     "source_context_from": "741-00-00",
     "source_context_until": "882-00-00",
     "source_written_in": "France",
-    "source_quote": "Quo etiam tempore eclipsis? lunae 14. Kalend. Maii post solis occasum facta est.",
+    "source_quote": "Quo etiam tempore eclipsis lunae 14. Kalend. Maii post solis occasum facta est.",
     "source_reference": "Pertz, Georg Heinrich (ed.): Monumenta Germaniae Historica, Scriptores, vol. 1, Hannover 1826",
     "source_reference_page": "p. 425",
     "publication_status": "edited",
@@ -6690,11 +6690,11 @@
     "": ""
   },
   {
-    "event_start": 834,
+    "event_start": "0834-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "flood",
     "author_name": "unknown",
     "author_occupation": "unknown",
     "author_lived_from": "unknown",
@@ -6722,11 +6722,11 @@
     "": ""
   },
   {
-    "event_start": 838,
+    "event_start": "0838-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "lunar eclipse",
     "author_name": "Prudentius of Troyes",
     "author_occupation": "bishiop",
     "author_lived_from": "unknown",
@@ -6754,11 +6754,11 @@
     "": ""
   },
   {
-    "event_start": 839,
+    "event_start": "0839-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "flood, infrastructure damage, zoonotic mortality with numeric data, human mortality with numeric data, red sky, comet / meteor / shooting star",
     "author_name": "Prudentius of Troyes",
     "author_occupation": "bishiop",
     "author_lived_from": "unknown",
@@ -6786,11 +6786,11 @@
     "": ""
   },
   {
-    "event_start": 839,
+    "event_start": "0839-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "fertility, crop failure (in general), tree damage, vinery damage, miracle / omen",
     "author_name": "Prudentius of Troyes",
     "author_occupation": "bishiop",
     "author_lived_from": "unknown",
@@ -6818,11 +6818,11 @@
     "": ""
   },
   {
-    "event_start": 842,
+    "event_start": "0842-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "earthquake",
     "author_name": "Prudentius of Troyes",
     "author_occupation": "bishiop",
     "author_lived_from": "unknown",
@@ -6850,11 +6850,11 @@
     "": ""
   },
   {
-    "event_start": 845,
+    "event_start": "0845-0",
     "event_end": "",
-    "season": "",
+    "season": "winter",
     "source_state": "",
-    "keywords": "",
+    "keywords": "cold",
     "author_name": "Prudentius of Troyes",
     "author_occupation": "bishiop",
     "author_lived_from": "unknown",
@@ -6882,11 +6882,11 @@
     "": ""
   },
   {
-    "event_start": 846,
+    "event_start": "0846-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "wind, crop failure (in general), vinery damage, human mortality without numeric data",
     "author_name": "Prudentius of Troyes",
     "author_occupation": "bishiop",
     "author_lived_from": "unknown",
@@ -6914,11 +6914,11 @@
     "": ""
   },
   {
-    "event_start": 846,
+    "event_start": "0846-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "flood, rain, vinery damage, infrastructure damage",
     "author_name": "Prudentius of Troyes",
     "author_occupation": "bishiop",
     "author_lived_from": "unknown",
@@ -6946,11 +6946,11 @@
     "": ""
   },
   {
-    "event_start": 849,
+    "event_start": "0849-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "supplication, earthquake",
     "author_name": "Prudentius of Troyes",
     "author_occupation": "bishiop",
     "author_lived_from": "unknown",
@@ -6978,11 +6978,11 @@
     "": ""
   },
   {
-    "event_start": 849,
+    "event_start": "0849-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "disease (in general), famine",
     "author_name": "Prudentius of Troyes",
     "author_occupation": "bishiop",
     "author_lived_from": "unknown",
@@ -7010,11 +7010,11 @@
     "": ""
   },
   {
-    "event_start": 855,
+    "event_start": "0855-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "comet / meteor / shooting star",
     "author_name": "Prudentius of Troyes",
     "author_occupation": "bishiop",
     "author_lived_from": "unknown",
@@ -7042,11 +7042,11 @@
     "": ""
   },
   {
-    "event_start": 856,
+    "event_start": "0856-0",
     "event_end": "",
-    "season": "",
+    "season": "winter",
     "source_state": "",
-    "keywords": "",
+    "keywords": "cold, drought, human mortality without numeric data",
     "author_name": "Prudentius of Troyes",
     "author_occupation": "bishiop",
     "author_lived_from": "unknown",
@@ -7074,11 +7074,11 @@
     "": ""
   },
   {
-    "event_start": 858,
+    "event_start": "0858-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "earthquake, human mortality without numeric data",
     "author_name": "Prudentius of Troyes",
     "author_occupation": "bishiop",
     "author_lived_from": "unknown",
@@ -7106,11 +7106,11 @@
     "": ""
   },
   {
-    "event_start": 858,
+    "event_start": "0858-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "rain, flood, infrastructure damage",
     "author_name": "Prudentius of Troyes",
     "author_occupation": "bishiop",
     "author_lived_from": "unknown",
@@ -7138,11 +7138,11 @@
     "": ""
   },
   {
-    "event_start": 860,
+    "event_start": "0860-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "snow, frost",
     "author_name": "Prudentius of Troyes",
     "author_occupation": "bishiop",
     "author_lived_from": "unknown",
@@ -7170,11 +7170,11 @@
     "": ""
   },
   {
-    "event_start": 860,
+    "event_start": "0860-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "lunar eclipse, solar eclipse",
     "author_name": "Prudentius of Troyes",
     "author_occupation": "bishiop",
     "author_lived_from": "unknown",
@@ -7202,43 +7202,11 @@
     "": ""
   },
   {
-    "event_start": 861,
+    "event_start": "0861-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
-    "author_name": "Prudentius of Troyes",
-    "author_occupation": "bishiop",
-    "author_lived_from": "unknown",
-    "author_lived_until": "0861-04-06",
-    "source_name": "Annales Bertiniani",
-    "source_genre": "annals",
-    "source_environment": "",
-    "source_written_from": "835-00-00",
-    "source_written_until": "882-00-00",
-    "source_context_from": "741-00-00",
-    "source_context_until": "882-00-00",
-    "source_written_in": "France",
-    "source_quote": "Dani mense Ianuario Lutetiam Parisiorum et ecclesiam sancti Vincentii martyris et sancti Germani confessoris incendio tradunt",
-    "source_reference": "Pertz, Georg Heinrich (ed.): Monumenta Germaniae Historica, Scriptores, vol. 1, Hannover 1826",
-    "source_reference_page": "p. 454",
-    "publication_status": "edited",
-    "translation": "",
-    "translation_reference": "",
-    "translation_reference_page": "",
-    "trade_from": "",
-    "trade_to": "",
-    "contemporaneity": "is contemporary",
-    "further links": "",
-    "notes": "Second part of the Annales Bertiniani",
-    "": ""
-  },
-  {
-    "event_start": 861,
-    "event_end": "",
-    "season": "",
-    "source_state": "",
-    "keywords": "",
+    "keywords": "lunar eclipse",
     "author_name": "Prudentius of Troyes",
     "author_occupation": "bishiop",
     "author_lived_from": "unknown",
@@ -7266,75 +7234,11 @@
     "": ""
   },
   {
-    "event_start": 861,
+    "event_start": "0874-0",
     "event_end": "",
-    "season": "",
+    "season": "winter",
     "source_state": "",
-    "keywords": "",
-    "author_name": "Hincmar of Reims",
-    "author_occupation": "archbishiop",
-    "author_lived_from": "806-00-00",
-    "author_lived_until": "0882-12-21",
-    "source_name": "Annales Bertiniani",
-    "source_genre": "annals",
-    "source_environment": "benedictine",
-    "source_written_from": "835-00-00",
-    "source_written_until": "882-00-00",
-    "source_context_from": "741-00-00",
-    "source_context_until": "882-00-00",
-    "source_written_in": "France",
-    "source_quote": "Quos imminens hiems ingredi mare prohibuit, unde se per singulos portus ab ipso loco Parisius usque secundum suas sodalitates dividunt.",
-    "source_reference": "Pertz, Georg Heinrich (ed.): Monumenta Germaniae Historica, Scriptores, vol. 1, Hannover 1826",
-    "source_reference_page": "p. 455",
-    "publication_status": "edited",
-    "translation": "",
-    "translation_reference": "",
-    "translation_reference_page": "",
-    "trade_from": "",
-    "trade_to": "",
-    "contemporaneity": "is contemporary",
-    "further links": "",
-    "notes": "Third part of  the Annales Bertiniani",
-    "": ""
-  },
-  {
-    "event_start": 869,
-    "event_end": "",
-    "season": "",
-    "source_state": "",
-    "keywords": "",
-    "author_name": "Hincmar of Reims",
-    "author_occupation": "archbishiop",
-    "author_lived_from": "806-00-00",
-    "author_lived_until": "0882-12-21",
-    "source_name": "Annales Bertiniani",
-    "source_genre": "annals",
-    "source_environment": "benedictine",
-    "source_written_from": "835-00-00",
-    "source_written_until": "882-00-00",
-    "source_context_from": "741-00-00",
-    "source_context_until": "882-00-00",
-    "source_written_in": "France",
-    "source_quote": "Ipse autem ad Conadam vicum nimis incongruenter et pro qualitate temporis et pro nimietate famis perrexit, ubi quosdam Aquitanos obvios habuit;",
-    "source_reference": "Pertz, Georg Heinrich (ed.): Monumenta Germaniae Historica, Scriptores, vol. 1, Hannover 1826",
-    "source_reference_page": "p. 481",
-    "publication_status": "edited",
-    "translation": "",
-    "translation_reference": "",
-    "translation_reference_page": "",
-    "trade_from": "",
-    "trade_to": "",
-    "contemporaneity": "is contemporary",
-    "further links": "",
-    "notes": "Third part of  the Annales Bertiniani",
-    "": ""
-  },
-  {
-    "event_start": 874,
-    "event_end": "",
-    "season": "",
-    "source_state": "",
-    "keywords": "",
+    "keywords": "cold, snow",
     "author_name": "Hincmar of Reims",
     "author_occupation": "archbishiop",
     "author_lived_from": "806-00-00",
@@ -7362,11 +7266,11 @@
     "": ""
   },
   {
-    "event_start": 874,
+    "event_start": "0874-0",
     "event_end": "",
-    "season": "",
+    "season": "summer",
     "source_state": "",
-    "keywords": "",
+    "keywords": "drought, crop failure (in general)",
     "author_name": "Hincmar of Reims",
     "author_occupation": "archbishiop",
     "author_lived_from": "806-00-00",
@@ -7394,43 +7298,11 @@
     "": ""
   },
   {
-    "event_start": 876,
+    "event_start": "0876-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
-    "author_name": "Hincmar of Reims",
-    "author_occupation": "archbishiop",
-    "author_lived_from": "806-00-00",
-    "author_lived_until": "0882-12-21",
-    "source_name": "Annales Bertiniani",
-    "source_genre": "annals",
-    "source_environment": "benedictine",
-    "source_written_from": "835-00-00",
-    "source_written_until": "882-00-00",
-    "source_context_from": "741-00-00",
-    "source_context_until": "882-00-00",
-    "source_written_in": "France",
-    "source_quote": "Hludowicus, Hludowici regis filius, decem homines aqua calida, et decem ferro calido, et decem aqua frigida, ad iudicium misit coram eis qui cum illo erant, petentibus omnibus, […]",
-    "source_reference": "Pertz, Georg Heinrich (ed.): Monumenta Germaniae Historica, Scriptores, vol. 1, Hannover 1826",
-    "source_reference_page": "p. 501",
-    "publication_status": "edited",
-    "translation": "",
-    "translation_reference": "",
-    "translation_reference_page": "",
-    "trade_from": "",
-    "trade_to": "",
-    "contemporaneity": "is contemporary",
-    "further links": "",
-    "notes": "Third part of  the Annales Bertiniani",
-    "": ""
-  },
-  {
-    "event_start": 876,
-    "event_end": "",
-    "season": "",
-    "source_state": "",
-    "keywords": "",
+    "keywords": "rain",
     "author_name": "Hincmar of Reims",
     "author_occupation": "archbishiop",
     "author_lived_from": "806-00-00",
@@ -7458,11 +7330,11 @@
     "": ""
   },
   {
-    "event_start": 878,
+    "event_start": "0878-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "lunar eclipse, solar eclipse",
     "author_name": "unknown",
     "author_occupation": "unknown",
     "author_lived_from": "unknown",
@@ -7490,11 +7362,11 @@
     "": "https://www.geschichtsquellen.de/werk/438"
   },
   {
-    "event_start": 886,
+    "event_start": "0886-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "flood, infrastructure damage",
     "author_name": "unknown",
     "author_occupation": "unknown",
     "author_lived_from": "unknown",
@@ -7522,11 +7394,11 @@
     "": "https://www.geschichtsquellen.de/werk/439"
   },
   {
-    "event_start": 892,
+    "event_start": "0892-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "famine",
     "author_name": "unknown",
     "author_occupation": "unknown",
     "author_lived_from": "unknown",
@@ -7554,11 +7426,11 @@
     "": "https://www.geschichtsquellen.de/werk/440"
   },
   {
-    "event_start": 892,
+    "event_start": "0892-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "famine",
     "author_name": "unknown",
     "author_occupation": "unknown",
     "author_lived_from": "unknown",
@@ -7586,7 +7458,7 @@
     "": "https://www.geschichtsquellen.de/werk/441"
   },
   {
-    "event_start": 888,
+    "event_start": "0888-0",
     "event_end": "",
     "season": "",
     "source_state": "",
@@ -7618,14 +7490,14 @@
     "": ""
   },
   {
-    "event_start": 517,
+    "event_start": "0517-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "flood",
     "author_name": "Regino of Prüm",
     "author_occupation": "monk",
-    "author_lived_from": "",
+    "author_lived_from": "unknown",
     "author_lived_until": "915-00-00",
     "source_name": "Reginonis Chronicon",
     "source_genre": "chronicle",
@@ -7650,14 +7522,14 @@
     "": ""
   },
   {
-    "event_start": 576,
+    "event_start": "0576-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "solar eclipse, disease (in general), miracle / omen, human mortality without numeric data",
     "author_name": "Regino of Prüm",
     "author_occupation": "monk",
-    "author_lived_from": "",
+    "author_lived_from": "unknown",
     "author_lived_until": "915-00-00",
     "source_name": "Reginonis Chronicon",
     "source_genre": "chronicle",
@@ -7682,14 +7554,14 @@
     "": ""
   },
   {
-    "event_start": 655,
+    "event_start": "0655-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "Supplication, famine, cold, human disease not defined & symptoms not stated, human mortality with numeric data, storm",
     "author_name": "Regino of Prüm",
     "author_occupation": "monk",
-    "author_lived_from": "",
+    "author_lived_from": "unknown",
     "author_lived_until": "915-00-00",
     "source_name": "Reginonis Chronicon",
     "source_genre": "chronicle",
@@ -7714,14 +7586,14 @@
     "": ""
   },
   {
-    "event_start": 763,
+    "event_start": "0763-0",
     "event_end": "",
-    "season": "",
+    "season": "winter",
     "source_state": "",
-    "keywords": "",
+    "keywords": "cold",
     "author_name": "Regino of Prüm",
     "author_occupation": "monk",
-    "author_lived_from": "",
+    "author_lived_from": "unknown",
     "author_lived_until": "915-00-00",
     "source_name": "Reginonis Chronicon",
     "source_genre": "chronicle",
@@ -7746,14 +7618,14 @@
     "": ""
   },
   {
-    "event_start": 771,
+    "event_start": "0771-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "drought, miracle / omen",
     "author_name": "Regino of Prüm",
     "author_occupation": "monk",
-    "author_lived_from": "",
+    "author_lived_from": "unknown",
     "author_lived_until": "915-00-00",
     "source_name": "Reginonis Chronicon",
     "source_genre": "chronicle",
@@ -7778,14 +7650,14 @@
     "": ""
   },
   {
-    "event_start": 784,
+    "event_start": "0784-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "flood",
     "author_name": "Regino of Prüm",
     "author_occupation": "monk",
-    "author_lived_from": "",
+    "author_lived_from": "unknown",
     "author_lived_until": "915-00-00",
     "source_name": "Reginonis Chronicon",
     "source_genre": "chronicle",
@@ -7810,14 +7682,14 @@
     "": ""
   },
   {
-    "event_start": 785,
+    "event_start": "0785-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "flood",
     "author_name": "Regino of Prüm",
     "author_occupation": "monk",
-    "author_lived_from": "",
+    "author_lived_from": "unknown",
     "author_lived_until": "915-00-00",
     "source_name": "Reginonis Chronicon",
     "source_genre": "chronicle",
@@ -7842,46 +7714,14 @@
     "": ""
   },
   {
-    "event_start": 799,
+    "event_start": "0799-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "ice (in general), frost",
     "author_name": "Regino of Prüm",
     "author_occupation": "monk",
-    "author_lived_from": "",
-    "author_lived_until": "915-00-00",
-    "source_name": "Reginonis Chronicon",
-    "source_genre": "chronicle",
-    "source_environment": "benedictine",
-    "source_written_from": "",
-    "source_written_until": "",
-    "source_context_from": "",
-    "source_context_until": "907-00-00",
-    "source_written_in": "Trier (Germany)",
-    "source_quote": "Obiit autem pridie Non. Iunii. Inde per Aurelianis ac Parisius regressus, Aquis palatium venit.",
-    "source_reference": "Pertz, Georg Heinrich (ed.): Monumenta Germaniae Historica, Scriptores, vol. 1, Hannover 1826",
-    "source_reference_page": "p. 562",
-    "publication_status": "edited",
-    "translation": "",
-    "translation_reference": "",
-    "translation_reference_page": "",
-    "trade_from": "",
-    "trade_to": "",
-    "contemporaneity": "",
-    "further links": "",
-    "notes": "",
-    "": ""
-  },
-  {
-    "event_start": 799,
-    "event_end": "",
-    "season": "",
-    "source_state": "",
-    "keywords": "",
-    "author_name": "Regino of Prüm",
-    "author_occupation": "monk",
-    "author_lived_from": "",
+    "author_lived_from": "unknown",
     "author_lived_until": "915-00-00",
     "source_name": "Reginonis Chronicon",
     "source_genre": "chronicle",
@@ -7906,14 +7746,14 @@
     "": ""
   },
   {
-    "event_start": 801,
+    "event_start": "0801-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "earthquake, disease (in general)",
     "author_name": "Regino of Prüm",
     "author_occupation": "monk",
-    "author_lived_from": "",
+    "author_lived_from": "unknown",
     "author_lived_until": "915-00-00",
     "source_name": "Reginonis Chronicon",
     "source_genre": "chronicle",
@@ -7938,14 +7778,14 @@
     "": ""
   },
   {
-    "event_start": 803,
+    "event_start": "0803-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "earthquake, mortality (in general)",
     "author_name": "Regino of Prüm",
     "author_occupation": "monk",
-    "author_lived_from": "",
+    "author_lived_from": "unknown",
     "author_lived_until": "915-00-00",
     "source_name": "Reginonis Chronicon",
     "source_genre": "chronicle",
@@ -7970,14 +7810,14 @@
     "": ""
   },
   {
-    "event_start": 806,
+    "event_start": "0806-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "lunar eclipse, solar eclipse",
     "author_name": "Regino of Prüm",
     "author_occupation": "monk",
-    "author_lived_from": "",
+    "author_lived_from": "unknown",
     "author_lived_until": "915-00-00",
     "source_name": "Reginonis Chronicon",
     "source_genre": "chronicle",
@@ -8002,14 +7842,14 @@
     "": ""
   },
   {
-    "event_start": 807,
+    "event_start": "0807-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "solar eclipse, lunar eclipse",
     "author_name": "Regino of Prüm",
     "author_occupation": "monk",
-    "author_lived_from": "",
+    "author_lived_from": "unknown",
     "author_lived_until": "915-00-00",
     "source_name": "Reginonis Chronicon",
     "source_genre": "chronicle",
@@ -8034,14 +7874,14 @@
     "": ""
   },
   {
-    "event_start": 808,
+    "event_start": "0808-0",
     "event_end": "",
-    "season": "",
+    "season": "winter",
     "source_state": "",
-    "keywords": "",
+    "keywords": "mild, disease (in general)",
     "author_name": "Regino of Prüm",
     "author_occupation": "monk",
-    "author_lived_from": "",
+    "author_lived_from": "unknown",
     "author_lived_until": "915-00-00",
     "source_name": "Reginonis Chronicon",
     "source_genre": "chronicle",
@@ -8066,14 +7906,14 @@
     "": ""
   },
   {
-    "event_start": 809,
+    "event_start": "0809-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "lunar eclipse",
     "author_name": "Regino of Prüm",
     "author_occupation": "monk",
-    "author_lived_from": "",
+    "author_lived_from": "unknown",
     "author_lived_until": "915-00-00",
     "source_name": "Reginonis Chronicon",
     "source_genre": "chronicle",
@@ -8098,14 +7938,14 @@
     "": ""
   },
   {
-    "event_start": 810,
+    "event_start": "0810-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "zootic disease not defined & symptoms not stated, zoonotic mortality without numeric data",
     "author_name": "Regino of Prüm",
     "author_occupation": "monk",
-    "author_lived_from": "",
+    "author_lived_from": "unknown",
     "author_lived_until": "915-00-00",
     "source_name": "Reginonis Chronicon",
     "source_genre": "chronicle",
@@ -8130,14 +7970,14 @@
     "": ""
   },
   {
-    "event_start": 810,
+    "event_start": "0810-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "solar eclipse, lunar eclipse",
     "author_name": "Regino of Prüm",
     "author_occupation": "monk",
-    "author_lived_from": "",
+    "author_lived_from": "unknown",
     "author_lived_until": "915-00-00",
     "source_name": "Reginonis Chronicon",
     "source_genre": "chronicle",
@@ -8162,14 +8002,14 @@
     "": ""
   },
   {
-    "event_start": 842,
+    "event_start": "0842-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "fertility",
     "author_name": "Regino of Prüm",
     "author_occupation": "monk",
-    "author_lived_from": "",
+    "author_lived_from": "unknown",
     "author_lived_until": "915-00-00",
     "source_name": "Reginonis Chronicon",
     "source_genre": "chronicle",
@@ -8194,14 +8034,14 @@
     "": ""
   },
   {
-    "event_start": 873,
+    "event_start": "0873-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "insects",
     "author_name": "Regino of Prüm",
     "author_occupation": "monk",
-    "author_lived_from": "",
+    "author_lived_from": "unknown",
     "author_lived_until": "915-00-00",
     "source_name": "Reginonis Chronicon",
     "source_genre": "chronicle",
@@ -8226,14 +8066,14 @@
     "": ""
   },
   {
-    "event_start": 873,
+    "event_start": "0873-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "famine, disease (in general), drought",
     "author_name": "Regino of Prüm",
     "author_occupation": "monk",
-    "author_lived_from": "",
+    "author_lived_from": "unknown",
     "author_lived_until": "915-00-00",
     "source_name": "Reginonis Chronicon",
     "source_genre": "chronicle",
@@ -8258,14 +8098,14 @@
     "": ""
   },
   {
-    "event_start": 874,
+    "event_start": "0874-0",
     "event_end": "",
     "season": "",
     "source_state": "",
     "keywords": "",
     "author_name": "Regino of Prüm",
     "author_occupation": "monk",
-    "author_lived_from": "",
+    "author_lived_from": "unknown",
     "author_lived_until": "915-00-00",
     "source_name": "Reginonis Chronicon",
     "source_genre": "chronicle",
@@ -8290,14 +8130,14 @@
     "": ""
   },
   {
-    "event_start": 878,
+    "event_start": "0878-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "lunar eclipse, solar eclipse",
     "author_name": "Regino of Prüm",
     "author_occupation": "monk",
-    "author_lived_from": "",
+    "author_lived_from": "unknown",
     "author_lived_until": "915-00-00",
     "source_name": "Reginonis Chronicon",
     "source_genre": "chronicle",
@@ -8322,14 +8162,14 @@
     "": ""
   },
   {
-    "event_start": 889,
+    "event_start": "0889-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "cold, snow, disease (in general)",
     "author_name": "Regino of Prüm",
     "author_occupation": "monk",
-    "author_lived_from": "",
+    "author_lived_from": "unknown",
     "author_lived_until": "915-00-00",
     "source_name": "Reginonis Chronicon",
     "source_genre": "chronicle",
@@ -8354,14 +8194,14 @@
     "": ""
   },
   {
-    "event_start": 905,
+    "event_start": "0905-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "comet / meteor / shooting star",
     "author_name": "Regino of Prüm",
     "author_occupation": "monk",
-    "author_lived_from": "",
+    "author_lived_from": "unknown",
     "author_lived_until": "915-00-00",
     "source_name": "Reginonis Chronicon",
     "source_genre": "chronicle",
@@ -8386,11 +8226,11 @@
     "": ""
   },
   {
-    "event_start": 913,
+    "event_start": "0913-0",
     "event_end": "",
-    "season": "",
+    "season": "winter",
     "source_state": "",
-    "keywords": "",
+    "keywords": "cold",
     "author_name": "unknown",
     "author_occupation": "unknown",
     "author_lived_from": "unknown",
@@ -8418,11 +8258,11 @@
     "": ""
   },
   {
-    "event_start": 928,
+    "event_start": "0928-0",
     "event_end": "",
-    "season": "",
+    "season": "winter",
     "source_state": "",
-    "keywords": "",
+    "keywords": "cold",
     "author_name": "unknown",
     "author_occupation": "unknown",
     "author_lived_from": "unknown",
@@ -8450,11 +8290,11 @@
     "": ""
   },
   {
-    "event_start": 942,
+    "event_start": "0942-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "comet / meteor / shooting star, zoonotic mortality without numeric data",
     "author_name": "unknown",
     "author_occupation": "unknown",
     "author_lived_from": "unknown",
@@ -8482,11 +8322,11 @@
     "": ""
   },
   {
-    "event_start": 956,
+    "event_start": "0956-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "human disease not defined & symptoms not stated, human mortality without numeric data",
     "author_name": "unknown",
     "author_occupation": "unknown",
     "author_lived_from": "unknown",
@@ -8514,11 +8354,11 @@
     "": ""
   },
   {
-    "event_start": 964,
+    "event_start": "0964-0",
     "event_end": "",
     "season": "",
     "source_state": "",
-    "keywords": "",
+    "keywords": "human disease not defined & symptoms not stated, human mortality without numeric data",
     "author_name": "unknown",
     "author_occupation": "unknown",
     "author_lived_from": "unknown",
