@@ -170,6 +170,7 @@
               <input type="checkbox" name="key" value="comet / meteor / shooting star">comet / meteor / shooting star<br>
               <input type="checkbox" name="key" value="planet conjunction">planet conjunction<br>
               <input type="checkbox" name="key" value="mock sun">mock sun<br>
+              <input type="checkbox" name="key" value="lunar or solar eclipse (not defined)">lunar or solar eclipse (not defined)<br>
               <input type="checkbox" name="key" value="solar eclipse">solar eclipse<br>
               <input type="checkbox" name="key" value="lunar eclipse">lunar eclipse<br>
               <input type="checkbox" name="key" value="anomaly of the moon">anomaly of the moon<br>
@@ -184,8 +185,8 @@
             <p class="card-text">
               <input type="checkbox" name="key" value="miracle / omen">miracle / omen<br>
               <input type="checkbox" name="key" value="apocalyptic flood">apocalyptic flood<br>
-              <input type="checkbox" name="key" value="blood rain">blood rain<br>
-              <input type="checkbox" name="key" value="blood snow">blood snow<br>
+              <input type="checkbox" name="key" value="bloody rain">bloody rain<br>
+              <input type="checkbox" name="key" value="bloody snow">bloody snow<br>
             </p>
           </div>
         </div>
@@ -199,8 +200,8 @@
             <input type="checkbox" name="key" value="disease (in general)">disease (in general)<br>
               <input type="checkbox" name="key" value="zoonotic disease not defined & symptoms not stated">zootic disease not defined & symptoms not stated<br>
               <input type="checkbox" name="key" value="zoonotic disease with description of symptoms">zootic disease with description of symptoms <br>
-              <input type="checkbox" name="key" value="human disease not defined, symptoms not stated">human disease not defined & symptoms not stated<br>
-              <input type="checkbox" name="key" value="human disease with symptoms description">human disease with symptoms description<br>
+              <input type="checkbox" name="key" value="human disease not defined & symptoms not stated">human disease not defined & symptoms not stated<br>
+              <input type="checkbox" name="key" value="human disease with description of symptoms">human disease with description of symptoms<br>
             </p>
           </div>
         </div>
@@ -222,7 +223,7 @@
               <input type="checkbox" name="key" value="vegetables damage">vegetables damage<br>
             </p>
             <p class="card-text">
-              <input type="checkbox" name="key" value="tree damage in general">tree damage in general<br>
+              <input type="checkbox" name="key" value="tree damage (in general)">tree damage (in general)<br>
               <input type="checkbox" name="key" value="fruit damage">fruit damage<br>
               <input type="checkbox" name="key" value="vinery damage">vinery damage<br>
               <input type="checkbox" name="key" value="olive tree damage">olive tree damage<br>
@@ -249,6 +250,7 @@
               <input type="checkbox" name="key" value="price mentioned (in general)">price mentioned (in general)<br>
               <input type="checkbox" name="key" value="price increase">price increase<br>
               <input type="checkbox" name="key" value="price increase">price decrease<br><br>
+              <input type="checkbox" name="key" value="infrastructure damage">infrastructure damage
             </p>
           </div>
         </div>
@@ -363,12 +365,18 @@
               <chart_source_genre></chart_source_genre>
               
             </div>
-            <div class="tab-pane fade pt-4 me-4" id="tab_source_author" role="tabpanel">
+            <div class="tab-pane fade pt-4 me-4" id="tab_author_name" role="tabpanel">
 
-              <chart_source_author></chart_source_author>
+              <chart_author_name></chart_author_name>
             </div>
             <div class="tab-pane fade pt-4 me-4" id="tab_publication_status" role="tabpanel" aria-labelledby="v-pills-settings-tab">
               <chart_publication_status></chart_publication_status>
+            </div>
+            <div class="tab-pane fade pt-4 me-4" id="tab_season" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+              <chart_season></chart_season>
+            </div>
+                        <div class="tab-pane fade pt-4 me-4" id="tab_keywords" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+              <chart_keywords></chart_keywords>
             </div>
           </div>
 
@@ -382,11 +390,17 @@
             <button class="nav-link" data-bs-toggle="pill" data-bs-target="#tab_source_genre" type="button" role="tab" aria-selected="false">
               Source genre (PIE)
             </button>
-            <button class="nav-link" data-bs-toggle="pill" data-bs-target="#tab_source_author" type="button" role="tab" aria-selected="false">
-              Source author (PIE)
+            <button class="nav-link" data-bs-toggle="pill" data-bs-target="#tab_author_name" type="button" role="tab" aria-selected="false">
+              Author name (PIE)
             </button>
             <button class="nav-link" data-bs-toggle="pill" data-bs-target="#tab_publication_status" type="button" role="tab" aria-selected="false">
               Publication status (PIE)
+            </button>
+            <button class="nav-link" data-bs-toggle="pill" data-bs-target="#tab_season" type="button" role="tab" aria-selected="false">
+              Season (PIE)
+            </button>
+            <button class="nav-link" data-bs-toggle="pill" data-bs-target="#tab_keywords" type="button" role="tab" aria-selected="false">
+              Keywords (PIE)
             </button>
           </div>
         </div>
@@ -409,6 +423,7 @@
       <th>Publication status</th>
       <th>Source genre</th>
       <th>Season</th>
+      <th>Author name</th>
     </tr>
   </thead>
   <tfoot>
@@ -422,12 +437,14 @@
       <th>Publication status</th>
       <th>Source genre</th>
       <th>Season</th>
+      <th>Author name</th>
     </tr>
   </tfoot>
 </table>
 
 </div>
 </div>
+
 
 
 
