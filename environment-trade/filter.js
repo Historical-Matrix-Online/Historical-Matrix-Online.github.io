@@ -69,7 +69,7 @@ $(document).ready(function() {
 
   // Create DataTable
   var table = $('#example').DataTable({
-    "ajax": 'https://raw.githubusercontent.com/Historical-Matrix-Online/Historical-Matrix-Online.github.io/main/environment-trade/data/MGH/MGH_SS1.json',
+    "ajax": 'https://raw.githubusercontent.com/Historical-Matrix-Online/Historical-Matrix-Online.github.io/main/environment-trade/data/merged.json',
     order: [
       [1, 'asc']
     ],
@@ -115,6 +115,10 @@ $(document).ready(function() {
         data: 'season',
         title: 'Season'
       },
+      {
+        data: 'author_name',
+        title: 'Author name'
+      },
     ],
     columnDefs: [{
         target: 6,
@@ -130,6 +134,10 @@ $(document).ready(function() {
       },
       {
         target: 9,
+        visible: false,
+      },
+      {
+        target: 10,
         visible: false,
       },
     ],
@@ -208,7 +216,7 @@ $(document).ready(function() {
    
    table.column(5).search(checkbox_contemporaneity, true, false, false).draw(false);
    
-   //filter contemporaneity
+   //filter season
    var checkbox_season = $('input:checkbox[name="season"]:checked').map(function() {
      return this.value;
    }).get().join('|');
@@ -293,14 +301,14 @@ $(document).ready(function() {
     ////////////////////// CHART3-PART1
 
   // Create the chart with initial data
-  var container3 = $('<div/>').insertBefore("chart_source_author");
+  var container3 = $('<div/>').insertBefore("chart_author_name");
 
   var chart3 = Highcharts.chart(container3[0], {
     chart: {
       type: 'pie',
     },
     title: {
-      text: 'Season count',
+      text: 'Author name count',
     },
     series: [{
       data: chartData3(table),
@@ -333,6 +341,51 @@ $(document).ready(function() {
   table.on('draw', function() {
     chart4.series[0].setData(chartData4(table));
   });
+  
+   ////////////////////// CHART5-PART1
+
+  // Create the chart with initial data
+  var container5 = $('<div/>').insertBefore("chart_season");
+
+  var chart5 = Highcharts.chart(container5[0], {
+    chart: {
+      type: 'pie',
+    },
+    title: {
+      text: 'Season count',
+    },
+    series: [{
+      data: chartData3(table),
+    }, ],
+  });
+
+  // On each draw, update the data in the chart
+  table.on('draw', function() {
+    chart5.series[0].setData(chartData5(table));
+  });
+  
+     ////////////////////// CHART6-PART1
+
+  // Create the chart with initial data
+  var container6 = $('<div/>').insertBefore("chart_keywords");
+
+  var chart6 = Highcharts.chart(container6[0], {
+    chart: {
+      type: 'pie',
+    },
+    title: {
+      text: 'Keywords count',
+    },
+    series: [{
+      data: chartData3(table),
+    }, ],
+  });
+
+  // On each draw, update the data in the chart
+  table.on('draw', function() {
+    chart6.series[0].setData(chartData6(table));
+  });
+  
 
 ////CHART-END
 
@@ -402,7 +455,7 @@ function chartData3(table) {
 
   // Count the number of entries for each position
   table
-    .column(9, {
+    .column(10, {
       search: 'applied'
     })
     .data()
@@ -431,6 +484,62 @@ function chartData4(table) {
   // Count the number of entries for each position
   table
     .column(7, {
+      search: 'applied'
+    })
+    .data()
+    .each(function(val) {
+      if (counts[val]) {
+        counts[val] += 1;
+      } else {
+        counts[val] = 1;
+      }
+    });
+
+  // And map it to the format highcharts uses
+  return $.map(counts, function(val, key) {
+    return {
+      name: key,
+      y: val,
+    };
+  });
+}
+
+////////////////////// CHART5-PART2
+
+function chartData5(table) {
+  var counts = {};
+
+  // Count the number of entries for each position
+  table
+    .column(9, {
+      search: 'applied'
+    })
+    .data()
+    .each(function(val) {
+      if (counts[val]) {
+        counts[val] += 1;
+      } else {
+        counts[val] = 1;
+      }
+    });
+
+  // And map it to the format highcharts uses
+  return $.map(counts, function(val, key) {
+    return {
+      name: key,
+      y: val,
+    };
+  });
+}
+
+////////////////////// CHART6-PART2
+
+function chartData6(table) {
+  var counts = {};
+
+  // Count the number of entries for each position
+  table
+    .column(3, {
       search: 'applied'
     })
     .data()
