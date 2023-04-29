@@ -69,7 +69,7 @@ $(document).ready(function() {
 
   // Create DataTable
   var table = $('#example').DataTable({
-    "ajax": 'https://raw.githubusercontent.com/Historical-Matrix-Online/Historical-Matrix-Online.github.io/main/environment-trade/data/merged.json',
+    "ajax": 'https://raw.githubusercontent.com/Historical-Matrix-Online/Historical-Matrix-Online.github.io/main/environment-trade/data/MGH/MGH_SS1.json',
     order: [
       [1, 'asc']
     ],
