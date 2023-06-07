@@ -148,7 +148,7 @@ $(document).ready(function() {
     ordering: true,
     info: true,
     "language": {
-      "info": "Showing _TOTAL_ from _MAX_ entries",
+      "info": "Showing _TOTAL_ of _MAX_ entries",
       "infoFiltered": "",
       "infoEmpty": ""
     },
